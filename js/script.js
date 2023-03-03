@@ -1,4 +1,3 @@
-
 // OVERLAY NAV MENU SHOW HIDE
 
 const mymenubutton = document.querySelector('.menu-button');
@@ -29,6 +28,7 @@ const myobserver = new IntersectionObserver((entries) => {
     myobserver.observe(section);
   });
   
+
 // LOGO HERO ANIMATION 
 const logo = document.querySelectorAll ("#logo path");
 

@@ -78,11 +78,31 @@
     }
 }
 
+/* FEATURED PROJECTS */ 
+#projects {
+    .row {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+
+        .one-half {
+            margin: 1em;
+            display: flex;
+            justify-content: center;
+            
+            img {
+                margin: 0;
+                max-width: 770px;
+            }
+        }
+    }
+}
+
 /* SITE FOOTER */ 
 .site-footer {
     background-color: $color-portfolio-bg;
     display: flex;
-    padding: 2em;
+    padding: 1em;
     justify-content: center;
 
     .site-nav {
@@ -103,6 +123,11 @@
 section {
     padding: 4em 0;
     min-height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+sectionproj {
     display: grid;
     align-items: center;
 }
