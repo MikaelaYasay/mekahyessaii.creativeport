@@ -128,6 +128,37 @@ hr {
   left: -9999px;
 }
 
+body {
+  -webkit-animation: fadeInAnimation ease 1.5s;
+          animation: fadeInAnimation ease 1.5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+hr {
+  margin: 0.5em 0 0.5em 0;
+  max-width: 100%;
+}
+
 /* BUTTONS */
 .button {
   display: inline-block;
@@ -151,8 +182,8 @@ img {
 
 /* ANIMATED HERO NAME */
 #logo {
-  -webkit-animation: fill ease 0.5s forwards 3s;
-          animation: fill ease 0.5s forwards 3s;
+  -webkit-animation: fill ease 0.5s forwards 4s;
+          animation: fill ease 0.5s forwards 4s;
 }
 
 #logo path:nth-child(1) {
@@ -308,6 +339,12 @@ body {
 .container {
   margin: 0 auto;
   max-width: 2000px;
+  padding: 0 1em;
+}
+
+.container-s {
+  margin: 0 auto;
+  max-width: 1500px;
   padding: 0 1em;
 }
 
@@ -528,6 +565,10 @@ body {
   z-index: 1;
 }
 
+.color-white a {
+  color: #FFFAFA;
+}
+
 #anim-hero {
   position: relative;
   width: 100%;
@@ -555,6 +596,65 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   color: #FFFAFA;
+}
+
+.bg-darkgreen {
+  background-color: #808E72;
+  padding: 2em;
+}
+.bg-darkgreen .overview h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #97a887;
+  font-weight: 600;
+}
+.bg-darkgreen .overview hr {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 20px;
+  height: 2px #97a887;
+}
+.bg-darkgreen .overview h2 {
+  margin: 1em 0 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-size: 1.8em;
+  color: #2E282A;
+}
+
+.bg-darkgreen {
+  background-color: #626d58;
+  padding: 1em;
+}
+
+.proj-info h5 {
+  color: #97a887;
+  font-weight: 600;
+}
+.proj-info li {
+  list-style: none;
+}
+.proj-info .sub-title {
+  font-family: "elizeth-condensed", serif;
+  font-weight: 600;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  color: #97a887;
+}
+
+.collection img {
+  max-width: 100%;
 }
 
 /* SITE FOOTER */
@@ -597,6 +697,15 @@ section {
 sectionproj {
   display: -ms-grid;
   display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+sections {
+  display: -ms-grid;
+  display: grid;
+  min-height: 20vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -844,10 +953,33 @@ sectionproj {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(/img/AmberAyre_Header02.jpg);
+    background-image: url(/img/AmberAyre_Header01.jpg);
     background-size: 160;
     background-position: center;
     background-attachment: fixed;
+  }
+
+  .proj-info h5 {
+    color: #97a887;
+    font-weight: 600;
+  }
+  .proj-info li {
+    list-style: none;
+  }
+  .proj-info hr {
+    max-width: 80%;
+  }
+  .proj-info .details {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .proj-info .sub-title {
+    font-family: "elizeth-condensed", serif;
+    font-weight: 600;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    color: #97a887;
   }
 }
 /* FOOTER SITE-NAV */
@@ -918,6 +1050,24 @@ sectionproj {
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+.inline-photo-above {
+  opacity: 0;
+  -webkit-transform: translate(0, -20px);
+          transform: translate(0, -20px);
+  -webkit-transition: opacity 0.3s 0.25s ease-out, -webkit-transform 2s;
+  transition: opacity 0.3s 0.25s ease-out, -webkit-transform 2s;
+  transition: transform 2s, opacity 0.3s 0.25s ease-out;
+  transition: transform 2s, opacity 0.3s 0.25s ease-out, -webkit-transform 2s;
+  width: 100%;
+  will-change: transform, opacity;
+}
+
+.inline-photo-above.is-visible {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
 }
 
 .hero .container *,

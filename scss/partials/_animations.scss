@@ -43,6 +43,20 @@
     transform: scale(1);
 }
 
+.inline-photo-above {
+    opacity: 0;
+    transform: translate(0, -20px);
+    transition: transform 2s,
+                opacity .3s .25s ease-out;
+    width: 100%;
+    will-change: transform, opacity;
+}
+
+.inline-photo-above.is-visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
 // SCROLL TRIGGER ANIMATION
 .hero,
 .hero[data-sectionstate="inactive"] {
