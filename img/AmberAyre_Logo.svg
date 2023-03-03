@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 585 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #c65b38;
+      }
+
+      .cls-7 {
+        fill: #23423d;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #42393d;
+      }
+
+      .cls-10 {
+        letter-spacing: .08em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-9 {
+        font-family: LeMondeLivreClaStd-Demi, 'Le Monde Livre Cla Std';
+        font-size: 71.8px;
+        font-weight: 300;
+      }
+
+      .cls-14 {
+        letter-spacing: .11em;
+      }
+
+      .cls-15 {
+        letter-spacing: .08em;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="12.21" y=".16" width="630.25" height="318"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <path class="cls-1" d="m280.89.16c-2.63,0-4.04,1.47-4.91,3.22l-4.97,10.9,13.69,30.89,2.93,6.56,5.03,11.43,6.14,13.89,16.2,36.57c1.64,3.75,3.28,7.44,4.97,11.14,1.81,4.22,3.69,8.38,5.56,12.48h-42.76v.06s-14.1,0-14.1,0c-.76,2.93-3.45,5.16-6.61,5.16-3.8,0-6.9-3.11-6.9-6.92,0-3.87,3.1-6.92,6.9-6.92,3.16,0,5.85,2.17,6.61,5.16h4.62c2.57-5.8,5.15-11.55,7.72-17.35l-10.65-27.2-49.37,109.6c-1.75,3.75.53,7.56,4.91,7.56h11.58c2.63,0,4.33-1.76,4.91-3.22,7.14-15.94,14.21-31.94,21.35-47.89h69.61s6.9,15.36,6.9,15.36l.59,1.29c.41.94.94,1.99,1.46,3.22.06.18.12.35.18.53.18.47.41,1,.58,1.52,2.81,7.33,4.27,11.02,2.98,14.54-1.17,3.28-3.98,5.22-4.15,5.33-1.17.82-2.22,1.17-3.39,1.52-2.34.76-5.67,1.7-9.94,2.52l-.06,5.16c9.12.06,18.25.06,27.32.12h15.5c.18,0,.41,0,.59-.06,5.85,0,11.7,0,17.55-.06v-5.16c-4.33-.82-7.66-1.76-9.94-2.52-1.05-.29-2.4-.41-3.39-1.52-.47-.47-.93-1.35-1.93-3.11-.18-.29-.29-.59-.47-.88-.12-.23-.23-.47-.29-.59-.06-.12-.12-.23-.18-.41-.17-.35-.41-.88-.7-1.47l-.47-.94c-.29-.64-.64-1.41-1.05-2.29l-.58-1.35-.88-1.99-.76-1.76-2.34-5.27-1.46-3.34c-.12-.35-.29-.7-.47-1.05v-.06s-24.92-55.5-24.92-55.5l-35.56-79.48-15.32-34.23c-.88-1.76-2.34-3.22-4.97-3.22h-2.87Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-2451.51" y1="2457.69" x2="-2450.71" y2="2457.69" gradientTransform="translate(-841751.77 839923.81) rotate(90) scale(342.62 -342.62)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b18e7f"/>
+      <stop offset=".07" stop-color="#b18e7f"/>
+      <stop offset=".32" stop-color="#9b552f"/>
+      <stop offset=".49" stop-color="#bb7c3a"/>
+      <stop offset=".63" stop-color="#daa144"/>
+      <stop offset=".76" stop-color="#d39d45"/>
+      <stop offset=".79" stop-color="#d19c46"/>
+      <stop offset=".9" stop-color="#fce6ab"/>
+      <stop offset="1" stop-color="#fce6ab"/>
+    </linearGradient>
+    <clipPath id="clippath-2">
+      <rect class="cls-1" x="12.21" y=".16" width="630.25" height="318"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g class="cls-3">
+      <path class="cls-8" d="m276.74,51.44c-3.8,8.5-7.6,17.06-11.41,25.61-11.58,26.08-23.16,52.16-34.75,78.25-7.08,15.94-14.21,31.94-21.29,47.89-.59,1.47-2.34,3.22-4.91,3.22h-31s0-5.22,0-5.22l6.96-2.7c6.84-2.7,10-5.51,15.38-17.17l1.4-3.11,1.35-2.99L265.62,26.3c3.28,7.5,6.61,15,9.94,22.51l1.05,2.46.12.18Z"/>
+    </g>
+    <g class="cls-12">
+      <rect class="cls-2" x="187.93" y="-23.49" width="232.83" height="253.55" transform="translate(-16.8 115.93) rotate(-21)"/>
+    </g>
+    <g class="cls-13">
+      <path class="cls-7" d="m265.86,135.55c0,2.05-1.7,3.75-3.8,3.75-2.11,0-3.8-1.7-3.8-3.75,0-2.11,1.7-3.81,3.8-3.81,2.11,0,3.8,1.7,3.8,3.81"/>
+      <path class="cls-5" d="m265.86,135.55c0,2.05-1.7,3.75-3.8,3.75-2.11,0-3.8-1.7-3.8-3.75,0-2.11,1.7-3.81,3.8-3.81,2.11,0,3.8,1.7,3.8,3.81"/>
+      <path class="cls-6" d="m265.86,135.55c0,2.05-1.7,3.75-3.8,3.75-2.11,0-3.8-1.7-3.8-3.75,0-2.11,1.7-3.81,3.8-3.81,2.11,0,3.8,1.7,3.8,3.81"/>
+    </g>
+  </g>
+  <text class="cls-9" transform="translate(20.91 299.05)"><tspan class="cls-10" x="0" y="0">AM</tspan><tspan class="cls-15" x="130.31" y="0">BE</tspan><tspan class="cls-10" x="233.34" y="0">R </tspan><tspan class="cls-11" x="314.11" y="0">A</tspan><tspan class="cls-10" x="363.87" y="0">Y</tspan><tspan class="cls-14" x="417.93" y="0">R</tspan><tspan class="cls-4" x="476.45" y="0">E</tspan></text>
+</svg>
