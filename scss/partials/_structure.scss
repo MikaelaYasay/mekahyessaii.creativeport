@@ -78,23 +78,50 @@
     }
 }
 
-/* FEATURED PROJECTS */ 
+/* FEATURED PROJECTS */
 #projects {
-    .row {
-        margin: 0;
-        display: flex;
-        justify-content: center;
+    padding: 0;
+    background-color: $color-portfolio-bg-darker;
 
-        .one-half {
-            margin: 1em;
+    .container {
+
+        ul {
+            margin: 0;
+            padding: 0;
             display: flex;
             justify-content: center;
-            
-            img {
-                margin: 0;
-                max-width: 770px;
+
+            li {
+                list-style: none;
             }
         }
+    }
+}
+
+/* AMBER AYRE */ 
+.site-header {
+    z-index: 1;
+}
+#anim-hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/AmberAyre_Header01.jpg);
+    background-size: 160;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: .8;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: $color-white;
+    }
+
+    h5 {
+        display: flex;
+        justify-content: center;
+        color: $color-white;
     }
 }
 
