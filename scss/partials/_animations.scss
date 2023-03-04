@@ -50,6 +50,7 @@
                 opacity .3s .25s ease-out;
     width: 100%;
     will-change: transform, opacity;
+    transition: all 1s ease-out;
 }
 
 .inline-photo-above.is-visible {

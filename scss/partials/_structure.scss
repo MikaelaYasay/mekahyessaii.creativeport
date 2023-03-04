@@ -132,11 +132,11 @@
 }
 
 .bg-darkgreen {
-    background-color: $color-text-subheadings;
     padding: 2em;
 
     .overview {
         h5 {
+            margin: 2.5em 0 .5em 0;
             display: flex;
             justify-content: center;
             color: $color-light-green;
@@ -162,9 +162,69 @@
     }
 }
 
+.bg-amber {
+    background-color: $color-amber;
+    padding: 1em;
+
+    .overview {
+        h5 {
+            margin: 1em 0 .5em 0;
+            display: flex;
+            justify-content: center;
+            color: $color-text-body;
+            font-weight: 600;
+        }
+
+        hr {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            max-width: 20px;
+            height: 2px $color-text-headings;
+            height: 2px;
+        }
+
+        h2 {
+            margin: 1em 0 1em 0;
+            display: flex;
+            text-align: center;
+            font-size: 1.8em;
+            color: $color-text-body;
+        }
+
+    }
+}
+
 .bg-darkgreen {
     background-color: $color-portfolio-bg-darker;
-    padding: 1em;
+    padding: 2em;
+
+    .overview {
+        h5 {
+            margin: 2.5em 0 .5em 0;
+            display: flex;
+            justify-content: center;
+            color: $color-light-green;
+            font-weight: 600;
+        }
+
+        hr {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            max-width: 20px;
+            height: 2px $color-light-green;
+        }
+
+        h2 {
+            margin: 1em 0 1em 0;
+            display: flex;
+            text-align: center;
+            font-size: 1.8em;
+            color: $color-text-body;
+        }
+
+    }
 }
 
 .proj-info {
@@ -179,11 +239,18 @@
     }
 
     .sub-title {
+        margin-bottom: .5em;
         font-family: $font-family-serif;
         font-weight: 600;
         font-size: .6em;
         text-transform: uppercase;
         color: $color-light-green;
+    }
+
+    hr {
+        margin: 1em 0 1em 0;
+        justify-content: flex-end;
+        width: 100%;
     }
 }
 
@@ -196,6 +263,36 @@
     
     img {
         max-width: 100%;
+    }
+}
+
+/* SEE MORE WORK */ 
+.see-more {
+    background-color: $color-light-green;
+
+    h1 {
+        margin: 1em 0 .5em 0;
+        justify-content: center;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+
+        h4 {
+            margin: .5em 0 .2em 0;
+            font-weight: 700;
+        }
+
+        p {
+            color: $color-white;
+        }
     }
 }
 
@@ -233,7 +330,15 @@ sectionproj {
     align-items: center;
 }
 
+sectionsd {
+    background-color: $color-link-lighter;
+    display: grid;
+    min-height: 50vh;
+    align-items: center;
+}
+
 sections {
+    background-color: $color-white;
     display: grid;
     min-height: 20vh;
     align-items: center;
