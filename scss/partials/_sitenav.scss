@@ -122,6 +122,9 @@
 
 /* MEDIUM SCREENS */
 @media (max-width: $breakpoint-medium) { 
+    section {
+        min-height: 75vh;
+    }
     /* HERO SECTION */
     .hero {
         background-color: $color-portfolio-bg;
@@ -166,6 +169,10 @@
 
 /* SMALL SCREENS */
 @media (max-width: $breakpoint-small) { 
+    section {
+        min-height: 75vh;
+    }
+
     /* HERO SECTION */
     .hero {
         background-color: $color-portfolio-bg;
