@@ -2,15 +2,18 @@
 .button {
     display: inline-block;
     background-color: $color-link;
-    color: #fff;
+    color: $color-white;
     text-decoration: none;
-    padding: 1em;
-    border-radius: 5px;
+    padding: 15px 32px;
+    border-radius: 5em;
     margin: 1em .5em 1em 0;
 
+    a {
+        color: $color-white;
+    }
+
     &:hover {
-        color: #fff;
+        color: $color-white-opac;
         background-color: $color-link-lighter;
     }
 }
-

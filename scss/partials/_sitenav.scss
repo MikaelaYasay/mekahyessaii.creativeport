@@ -41,7 +41,7 @@
 
     li {
         text-transform: uppercase;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 4vw;
         min-width: 20vw;
         transform: translate(10%,0);
@@ -50,7 +50,26 @@
 
         a {
             color: $color-portfolio-bg-darker;
-            font-size: 3em;
+            font-size: 2.3em;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: $color-link;
+            color: $color-white;
+            text-decoration: none;
+            padding: 15px 32px;
+            border-radius: 5em;
+            margin: 1em .5em 1em 0;
+
+            a {
+                color: $color-white;
+            }
+
+            &:hover {
+                color: $color-light-green;
+                background-color: $color-link-lighter;
+            }
         }
     }
 
@@ -114,6 +133,146 @@
                 
                 &:hover {
                     color: $color-white;
+                }
+            }
+        }
+    }
+}
+
+.site-header-white .site-nav-white {
+    .menu-button {
+        position: absolute;
+        top: .75em;
+        right: .75em;
+        color: $color-text-headings;
+        margin: 0;
+        font-size: 1.5em;
+        line-height: 1;
+        transform: center;
+        z-index: 20;
+        cursor: pointer;
+
+        svg {
+            fill: $color-text-headings;
+            rect {
+                transition: .3s all ease-out;
+            }
+        }
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background-color: $color-white;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translate(100%,0);
+        transition: .3s all ease-out;
+        z-index: 1;
+    }
+
+    li {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 4vw;
+        min-width: 20vw;
+        transform: translate(10%,0);
+        transition: .3s all ease-out .3s;
+        opacity: 0;
+
+        a {
+            color: $color-portfolio-bg-darker;
+            font-size: 2.3em;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: $color-link;
+            color: $color-white;
+            text-decoration: none;
+            padding: 15px 32px;
+            border-radius: 5em;
+            margin: 1em .5em 1em 0;
+
+            a {
+                color: $color-white;
+            }
+
+            &:hover {
+                color: $color-light-green;
+                background-color: $color-link-lighter;
+            }
+        }
+    }
+
+    &[data-navstate="open"] {
+        .menu-button {
+            position: fixed;
+        }
+
+        #menubar-top {
+            transform-origin: center;
+            transform: translate(7px,7px) rotate(-45deg);
+        }
+
+        #menubar-middle {
+            opacity: 0;
+        }
+
+        #menubar-bottom {
+            transform-origin: center;
+            transform: translate(0,-4px) rotate(45deg);
+        }
+
+        ul {
+            transform: translate(0,0);
+        }
+
+        li {
+            transform: translate(0,0);
+            opacity: 1;
+        }
+    }
+
+    /* BIG SCREENS */ 
+    @media (min-width: 768px) {
+        .menu-button {
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+
+        ul {
+            background-color: transparent;
+            transform: translate(0,0);
+            position: static;
+            width: auto;
+            height: auto;
+            flex-direction: row;
+            transition: none;
+        }
+
+        li {
+            max-width: 40vw;
+            opacity: 1;
+            transform: translate(0,0);
+            font-size: .3em;
+            min-width: 0;
+            margin: 0 1em 0 6em;
+
+            a {
+                color: $color-white;
+                
+                &:hover {
+                    color: $color-text-subheadings;
                 }
             }
         }
