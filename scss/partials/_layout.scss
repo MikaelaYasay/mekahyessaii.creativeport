@@ -12,7 +12,13 @@ body {
 
 .container-s {
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1000px;
+    padding: 0 1em;
+}
+
+.container-xs {
+    margin: 0 auto;
+    max-width: 800px;
     padding: 0 1em;
 }
 

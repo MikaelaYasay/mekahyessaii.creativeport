@@ -1,6 +1,5 @@
 /* SITE STRUCUTURE */ 
-.site-header,
-.site-header-white {
+.site-header{
     position: absolute;
     width: 100%;
     padding: 1em;
@@ -25,13 +24,8 @@
 
     .logo {
         max-width: 50px;
-
-        svg {
-            &:hover {
-                fill: $color-white;
-            }
-        }
     }
+
 }
 
 /* HERO SECTION */
@@ -104,32 +98,24 @@
 .site-header-white {
     z-index: 1;
 }
-.color-white {
-    a {
-        color: $color-white;
-    }
-}
 
 #anim-hero {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(/img/AmberAyre_Header01.jpg);
-    background-size: 160;
+    background-image: url(/img/AmberAyre_Hero.svg);
+    background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    opacity: .8;
+    background-size: cover;
 
     h1 {
         display: flex;
         justify-content: center;
-        color: $color-white;
     }
 
     h5 {
         display: flex;
         justify-content: center;
-        color: $color-white;
     }
 }
 
@@ -166,9 +152,17 @@
 
 .bg-amber {
     background-color: $color-amber;
-    padding: 1em;
+    padding: 5em;
 
     .overview {
+        .idea {
+            font-family: $font-family-serif;
+            font-weight: 500;
+            font-size: 1.2em;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+        }
+
         h5 {
             margin: 1em 0 .5em 0;
             display: flex;
@@ -193,12 +187,10 @@
             font-size: 1.8em;
             color: $color-text-body;
         }
-
     }
 }
 
 .bg-darkgreen {
-    background-color: $color-portfolio-bg-darker;
     padding: 2em;
 
     .overview {
@@ -226,6 +218,9 @@
             color: $color-text-body;
         }
 
+        img {
+            box-shadow: 0px 0px 20px $color-text-headings;
+        }
     }
 }
 
@@ -247,6 +242,12 @@
         font-size: .6em;
         text-transform: uppercase;
         color: $color-light-green;
+        letter-spacing: .2em;
+    }
+
+    .divider {
+       font-weight: 500;
+       font-size: 1.2em;
     }
 
     hr {
@@ -257,6 +258,7 @@
 }
 
 .collection {
+    margin-top: 5em;
 
     h5 {
         color: $color-light-green;

@@ -39,13 +39,13 @@ body {
   font-family: "elza-narrow", sans-serif;
   font-weight: 500;
   font-style: normal;
-  letter-spacing: 0.2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "elizeth-condensed", serif;
   font-weight: 500;
   font-style: normal;
+  letter-spacing: 0.2em;
 }
 
 /* BASE TYPOGRAPHY */
@@ -370,7 +370,13 @@ body {
 
 .container-s {
   margin: 0 auto;
-  max-width: 1500px;
+  max-width: 1000px;
+  padding: 0 1em;
+}
+
+.container-xs {
+  margin: 0 auto;
+  max-width: 800px;
   padding: 0 1em;
 }
 
@@ -668,8 +674,7 @@ body {
 }
 
 /* SITE STRUCUTURE */
-.site-header,
-.site-header-white {
+.site-header {
   position: absolute;
   width: 100%;
   padding: 1em;
@@ -683,18 +688,15 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.site-header a,
-.site-header-white a {
+.site-header a {
   color: #FFFAFA;
   text-decoration: none;
 }
-.site-header h1,
-.site-header-white h1 {
+.site-header h1 {
   font-size: 1.5em;
   margin: 0;
 }
-.site-header .site-id,
-.site-header-white .site-id {
+.site-header .site-id {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -702,13 +704,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.site-header .logo,
-.site-header-white .logo {
+.site-header .logo {
   max-width: 50px;
-}
-.site-header .logo svg:hover,
-.site-header-white .logo svg:hover {
-  fill: #FFFAFA;
 }
 
 /* HERO SECTION */
@@ -786,19 +783,14 @@ body {
   z-index: 1;
 }
 
-.color-white a {
-  color: #FFFAFA;
-}
-
 #anim-hero {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(/img/AmberAyre_Header01.jpg);
-  background-size: 160;
+  background-image: url(/img/AmberAyre_Hero.svg);
+  background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
-  opacity: 0.8;
+  background-size: cover;
 }
 #anim-hero h1 {
   display: -webkit-box;
@@ -807,7 +799,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #FFFAFA;
 }
 #anim-hero h5 {
   display: -webkit-box;
@@ -816,7 +807,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #FFFAFA;
 }
 
 .bg-darkgreen {
@@ -856,7 +846,14 @@ body {
 
 .bg-amber {
   background-color: rgba(210, 184, 78, 0.5333333333);
-  padding: 1em;
+  padding: 5em;
+}
+.bg-amber .overview .idea {
+  font-family: "elizeth-condensed", serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 .bg-amber .overview h5 {
   margin: 1em 0 0.5em 0;
@@ -892,7 +889,6 @@ body {
 }
 
 .bg-darkgreen {
-  background-color: #626d58;
   padding: 2em;
 }
 .bg-darkgreen .overview h5 {
@@ -926,6 +922,10 @@ body {
   font-size: 1.8em;
   color: #2E282A;
 }
+.bg-darkgreen .overview img {
+  -webkit-box-shadow: 0px 0px 20px #353b3c;
+          box-shadow: 0px 0px 20px #353b3c;
+}
 
 .proj-info h5 {
   color: #97a887;
@@ -941,6 +941,11 @@ body {
   font-size: 0.6em;
   text-transform: uppercase;
   color: #97a887;
+  letter-spacing: 0.2em;
+}
+.proj-info .divider {
+  font-weight: 500;
+  font-size: 1.2em;
 }
 .proj-info hr {
   margin: 1em 0 1em 0;
@@ -950,6 +955,9 @@ body {
   width: 100%;
 }
 
+.collection {
+  margin-top: 5em;
+}
 .collection h5 {
   color: #97a887;
   font-weight: 600;
@@ -1212,6 +1220,7 @@ sections {
   -webkit-transition: 0.3s all ease-out 0.3s;
   transition: 0.3s all ease-out 0.3s;
   opacity: 0;
+  letter-spacing: 0.2em;
 }
 .site-header .site-nav li a {
   color: #626d58;
@@ -1293,154 +1302,7 @@ sections {
     color: #353b3c;
   }
   .site-header .site-nav li a:hover {
-    color: #FFFAFA;
-  }
-}
-
-.site-header-white .site-nav-white {
-  /* BIG SCREENS */
-}
-.site-header-white .site-nav-white .menu-button {
-  position: absolute;
-  top: 0.75em;
-  right: 0.75em;
-  color: #353b3c;
-  margin: 0;
-  font-size: 1.5em;
-  line-height: 1;
-  -webkit-transform: center;
-          transform: center;
-  z-index: 20;
-  cursor: pointer;
-}
-.site-header-white .site-nav-white .menu-button svg {
-  fill: #353b3c;
-}
-.site-header-white .site-nav-white .menu-button svg rect {
-  -webkit-transition: 0.3s all ease-out;
-  transition: 0.3s all ease-out;
-}
-.site-header-white .site-nav-white ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background-color: #FFFAFA;
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transform: translate(100%, 0);
-          transform: translate(100%, 0);
-  -webkit-transition: 0.3s all ease-out;
-  transition: 0.3s all ease-out;
-  z-index: 1;
-}
-.site-header-white .site-nav-white li {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 4vw;
-  min-width: 20vw;
-  -webkit-transform: translate(10%, 0);
-          transform: translate(10%, 0);
-  -webkit-transition: 0.3s all ease-out 0.3s;
-  transition: 0.3s all ease-out 0.3s;
-  opacity: 0;
-}
-.site-header-white .site-nav-white li a {
-  color: #626d58;
-  font-size: 2.3em;
-}
-.site-header-white .site-nav-white li .button {
-  display: inline-block;
-  background-color: #2E282A;
-  color: #FFFAFA;
-  text-decoration: none;
-  padding: 15px 32px;
-  border-radius: 5em;
-  margin: 1em 0.5em 1em 0;
-}
-.site-header-white .site-nav-white li .button a {
-  color: #FFFAFA;
-}
-.site-header-white .site-nav-white li .button:hover {
-  color: #97a887;
-  background-color: #414849;
-}
-.site-header-white .site-nav-white[data-navstate=open] .menu-button {
-  position: fixed;
-}
-.site-header-white .site-nav-white[data-navstate=open] #menubar-top {
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  -webkit-transform: translate(7px, 7px) rotate(-45deg);
-          transform: translate(7px, 7px) rotate(-45deg);
-}
-.site-header-white .site-nav-white[data-navstate=open] #menubar-middle {
-  opacity: 0;
-}
-.site-header-white .site-nav-white[data-navstate=open] #menubar-bottom {
-  -webkit-transform-origin: center;
-          transform-origin: center;
-  -webkit-transform: translate(0, -4px) rotate(45deg);
-          transform: translate(0, -4px) rotate(45deg);
-}
-.site-header-white .site-nav-white[data-navstate=open] ul {
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
-}
-.site-header-white .site-nav-white[data-navstate=open] li {
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
-  opacity: 1;
-}
-@media (min-width: 768px) {
-  .site-header-white .site-nav-white .menu-button {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-  .site-header-white .site-nav-white ul {
-    background-color: transparent;
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    position: static;
-    width: auto;
-    height: auto;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-transition: none;
-    transition: none;
-  }
-  .site-header-white .site-nav-white li {
-    max-width: 40vw;
-    opacity: 1;
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-    font-size: 0.3em;
-    min-width: 0;
-    margin: 0 1em 0 6em;
-  }
-  .site-header-white .site-nav-white li a {
-    color: #FFFAFA;
-  }
-  .site-header-white .site-nav-white li a:hover {
-    color: #474f50;
+    color: #97a887;
   }
 }
 
@@ -1631,15 +1493,6 @@ sections {
   /* AMBER AYRE */
   .site-header {
     z-index: 1;
-  }
-
-  #anim-hero {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/img/AmberAyre_Header01.jpg);
-    background-position: center;
-    background-attachment: fixed;
   }
 
   .proj-info h5 {
