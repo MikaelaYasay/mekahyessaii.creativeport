@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mika's Creative Portal</title>
+
+    <!-- ADOBE FONTS -->
+    <link rel="stylesheet" href="https://use.typekit.net/wfp8twm.css">
+
+    <!-- MAIN CSS STYLES -->
+    <link rel="stylesheet" href="css/style.css">
+     <!-- ICON LIBRARY -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="site-id">
+            <div class="logo">
+                <a class="home-logo" href="index.html"><img src="img/mekahyessaii_logo.svg" alt="MY Square Logo" width="50px" height="50px"></a>
+            </div>
+            <h1 class="hide-visually"><a href="#">My Creative Portal</a></h1>
+        </div>
+        <nav class="site-nav" data-navstate="closed">
+            <h2 class="menu-button">
+                <span class="hide-visually">Menu</span>
+                <svg width="30" height="30"> 
+                    <title>Menu</title>
+                    <rect id="menubar-top" y="0" width="30" height="3"></rect>
+                    <rect id="menubar-middle" y="8" width="30" height="3"></rect>
+                    <rect id="menubar-bottom" y="16" width="30" height="3"></rect>
+                </svg>
+            </h2>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a class="button" href="mailto:mika.m.yasay@gmail.com">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <section>
+            <div class="container">
+                <div class="resume">
+                    <div class="resume-btn">
+                        <a class="button" target="_blank" href="img/YasayMikaela_NMAResume_2023.pdf">Download Resume</a>
+                    </div>
+                    <img src="img/YasayMikaela_NMAResume_2023.jpg" alt="Resume">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <nav class="site-nav">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/mikaelay/" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/me.kah_yessaii/?hl=en" class="fa fa-instagram"></a>
+                <a href="https://github.com/MikaelaYasay" class="fa fa-github"></a>
+                <a href="https://codepen.io/your-work/" class="fa fa-codepen"></a>
+            </div>
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com//cferdinandi/smooth-scroll-->
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 800,
+            speedAsDuration: true
+        });
+    </script>
+
+    <!-- MAIN JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

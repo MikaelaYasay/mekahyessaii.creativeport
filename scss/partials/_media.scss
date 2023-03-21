@@ -5,6 +5,15 @@ img {
     height: auto;
 }
 
+/* VIDEO */ 
+.back-video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    filter: opacity(10%);
+}
+
 /* ANIMATED HERO NAME */ 
 #logo {
     animation: fill ease 0.5s forwards 4s;
@@ -92,7 +101,7 @@ img {
 @media (max-width: $breakpoint-large) { 
     /* HERO SECTION */
     .hero {
-        background-color: $color-portfolio-bg;
+        background-image: url(/img/Hero_Video.mp4);
         color: $color-text-subheadings;
         text-align: center;
         padding: 6em 0;

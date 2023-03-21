@@ -30,11 +30,11 @@
 
 /* HERO SECTION */
 .hero {
-    background-color: $color-portfolio-bg;
+    background-color: $color-white-bg;
     color: $color-text-subheadings;
     text-align: center;
     padding: 6em 0;
-    min-height: 100vh;
+    min-height: 80vh;
     display: grid;
     place-items: center;
 
@@ -76,7 +76,7 @@
 /* FEATURED PROJECTS */
 #projects {
     padding: 0;
-    background-color: $color-portfolio-bg-darker;
+    background-color: $color-white-bg;
 
     .container {
 
@@ -150,6 +150,39 @@
     }
 }
 
+.brandassets {
+    .row {
+        display: flex;
+        justify-content: center;
+
+        img {
+            
+        }
+    }
+}
+
+.bs {
+    img {
+        margin: 1em 0 0 0;
+    }
+}
+
+.bs_desc {
+    h3 {
+        color: $color-text-headings;
+        font-weight: 700;
+    }
+}
+
+.logo-title {
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        margin: 0;
+    }
+}
+
 .bg-amber {
     background-color: $color-amber;
     padding: 5em;
@@ -190,7 +223,7 @@
     }
 }
 
-.bg-darkgreen {
+.sec-darkgreen {
     padding: 2em;
 
     .overview {
@@ -221,7 +254,18 @@
         img {
             box-shadow: 0px 0px 20px $color-text-headings;
         }
+
+        .brandassets {
+            img {
+                box-shadow: none;
+            }
+        }
+
+        .grid-wrap1 {
+
+        }
     }
+
 }
 
 .proj-info {
@@ -373,6 +417,39 @@
     }
 }
 
+/* RESUME PAGE */ 
+.resume {
+    margin: 5em;
+
+    .resume-btn {
+        margin-bottom: 2em;
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: .8em;
+        letter-spacing: .1em;
+
+        .button {
+            display: flex;
+            justify-content: center;
+        }
+
+        &:hover {
+            color: $color-light-green;
+        }
+    }
+
+    img {
+        box-shadow: 0px 0px 20px $color-text-headings;
+        width: 100%;
+        height: auto;
+    }
+}
+
 /* SITE FOOTER */ 
 .site-footer {
     background-color: $color-portfolio-bg;
@@ -424,6 +501,7 @@ sections {
     min-height: 20vh;
     align-items: center;
 }
+
 
 .social-links {
     display: flex;
