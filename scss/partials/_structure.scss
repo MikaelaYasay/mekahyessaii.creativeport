@@ -28,6 +28,35 @@
 
 }
 
+.site-header-white {
+    position: absolute;
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    a {
+        color: $color-white;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+    .site-id {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        max-width: 50px;
+    }
+
+}
+
 /* HERO SECTION */
 .hero {
     background-color: $color-white-bg;
@@ -37,6 +66,10 @@
     min-height: 80vh;
     display: grid;
     place-items: center;
+
+    video {
+        height: 100vh;
+    }
 
     .container {
         display: inline-block;
@@ -63,13 +96,29 @@
 /* SITE MAIN */ 
 .site-main {
     background-color: $color-white;
-    h1 {
+
+    .banner {
+        width: 100%;
+        overflow: hidden;
         display: flex;
+        justify-content: center;
         align-items: center;
-        text-align: center;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: .5em;
+
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .hero-name {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        left: 0;
     }
 }
 
@@ -111,6 +160,8 @@
     h1 {
         display: flex;
         justify-content: center;
+        font-weight: 700;
+        text-transform: uppercase;
     }
 
     h5 {
@@ -147,6 +198,12 @@
             color: $color-text-body;
         }
 
+        .box-shadow {
+            img {
+                box-shadow: 0px 0px 20px $color-text-headings;
+            }
+        }
+
     }
 }
 
@@ -155,8 +212,8 @@
         display: flex;
         justify-content: center;
 
-        img {
-            
+        h2 {
+            font-weight: 700;
         }
     }
 }
@@ -179,7 +236,15 @@
     justify-content: center;
 
     h1 {
+        display: flex;
+        justify-content: center;
         margin: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    .green {
+        color: $color-portfolio-bg;
     }
 }
 
@@ -188,22 +253,28 @@
     padding: 5em;
 
     .overview {
+        height: 100%;
         .idea {
-            font-family: $font-family-serif;
-            font-weight: 500;
-            font-size: 1.2em;
-            letter-spacing: .1em;
-            text-transform: uppercase;
-        }
+            h5 {
+                margin: 1em 0 .5em 0;
+                display: flex;
+                justify-content: center;
+                color: $color-text-body;
+                font-weight: 600;
+            }
 
-        h5 {
-            margin: 1em 0 .5em 0;
-            display: flex;
-            justify-content: center;
-            color: $color-text-body;
-            font-weight: 600;
-        }
+            .idea-desc {
+                margin-top: 1em;
 
+                i {
+                    font-family: $font-family-serif;
+                    font-weight: 500;
+                    font-size: 1.2em;
+                    letter-spacing: .1em;
+                    text-transform: uppercase; 
+                }
+            }
+        }
         hr {
             margin: auto;
             display: flex;
@@ -212,14 +283,12 @@
             height: 2px $color-text-headings;
             height: 2px;
         }
+    }
+}
 
-        h2 {
-            margin: 1em 0 1em 0;
-            display: flex;
-            text-align: center;
-            font-size: 1.8em;
-            color: $color-text-body;
-        }
+.schem-info {
+    h2 {
+        font-weight: 700;
     }
 }
 
@@ -259,16 +328,33 @@
             img {
                 box-shadow: none;
             }
+
+            h3 {
+                font-weight: 700;
+            }
+        }
+    }
+
+    .variation {
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+
+        img {
+            margin-top: 1em;
+            max-width: 800px;
+
         }
 
-        .grid-wrap1 {
-
+        h3 {
+            font-weight: 700;
         }
     }
 
 }
 
 .proj-info {
+    margin-top: 2em;
 
     h5 {
         color: $color-light-green;
@@ -305,6 +391,7 @@
     margin-top: 5em;
 
     h5 {
+        margin-top: 1em;
         color: $color-light-green;
         font-weight: 600;
     }
@@ -328,14 +415,15 @@
     width: 100%;
     height: 100vh;
     background-image: url(/img/Scaled_Hero.jpg);
-    background-size: 160;
+    background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    opacity: .8;
+    background-size: cover;
 
     h1 {
         display: flex;
         justify-content: center;
+        font-weight: 700;
+        text-transform: uppercase;
         color: $color-white;
     }
 
@@ -346,38 +434,39 @@
     }
 }
 
-.bg-blue {
-    background-color: $color-blue;
-    padding: 1em;
+.conatiner {
 
-    .overview {
-        h5 {
-            margin: 1em 0 .5em 0;
-            display: flex;
-            justify-content: center;
-            color: $color-text-body;
-            font-weight: 600;
-        }
+    img {
+        height: 50vh;
+    }
 
-        hr {
-            margin: auto;
-            display: flex;
-            justify-content: center;
-            max-width: 20px;
-            height: 2px $color-text-headings;
-            height: 2px;
-        }
+}
 
-        h2 {
-            margin: 1em 0 1em 0;
-            display: flex;
-            text-align: center;
-            font-size: 1.8em;
-            color: $color-text-body;
-        }
+/* TYPOGRAPHY BOOK */ 
+#anim-hero2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/Typography_Hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
+    h1 {
+        color: $color-white;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    h5 {
+        color: $color-white;
+        display: flex;
+        justify-content: center;
     }
 }
+
 /* DESCRIPTIONS OF CHALLENGES */ 
 .process {
     p {
@@ -388,7 +477,47 @@
 
 /* SEE MORE WORK */ 
 .see-more {
-    background-color: $color-light-green;
+    background-color: $color-white-bg;
+
+    .more-work {
+
+        h2 {
+            font-size: .8em;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .hr-lines {
+            position: relative;
+            max-width: 500px;
+            margin: 3em auto;
+            text-align: center;
+
+            &::before{
+                content:" ";
+                display: block;
+                height: 2px;
+                width: 300px;
+                position: absolute;
+                top: 50%;
+                left: -50%;
+                background: $color-light-green;
+              }
+        
+            &::after {
+                content:" ";
+                height: 2px;
+                width: 300px;
+                background: $color-light-green;
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: -50%;
+            }
+        }
+
+       
+    }
 
     h1 {
         margin: 1em 0 .5em 0;
@@ -464,6 +593,7 @@
     a {
         color: $color-white;
         text-decoration: none;
+        letter-spacing: .1em;
 
         &:hover {
             color: $color-light-green;
