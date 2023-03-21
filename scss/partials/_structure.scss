@@ -467,6 +467,131 @@
     }
 }
 
+/* TRILOGY BOOKS */ 
+#anim-hero3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/TIL_Hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h1 {
+        color: $color-text-headings;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    h5 {
+        color: $color-text-subheadings;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.podcast {
+    margin: 4em 0 3em 0;
+    background-color: $color-portfolio-bg-darker;
+}
+
+.logo-title1 {
+
+    .title {
+        margin-top: 1em;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color-white;
+    }
+
+    .sub-logo-title {
+        margin: 1em 0 1em 0;
+
+        h5 {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: $color-white;
+        }
+    }
+}
+
+/* DUBAI TOURISM */ 
+#anim-hero4 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/Dubai_BrujKhalifa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h1 {
+        color: $color-text-headings;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color-white;
+    }
+
+    h5 {
+        color: $color-text-subheadings;
+        display: flex;
+        justify-content: center;
+        color: $color-white;
+    }
+}
+
+
+.bg-blue {
+    background-color: $color-blue;
+    padding: 5em;
+
+    .overview {
+        height: 100%;
+        .idea {
+            h5 {
+                margin: 1em 0 .5em 0;
+                display: flex;
+                justify-content: center;
+                color: $color-text-body;
+                font-weight: 600;
+            }
+
+            .idea-desc {
+                margin-top: 1em;
+
+                i {
+                    font-family: $font-family-serif;
+                    font-weight: 500;
+                    font-size: 1.2em;
+                    letter-spacing: .1em;
+                    text-transform: uppercase; 
+                }
+            }
+        }
+        hr {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            max-width: 20px;
+            height: 2px $color-text-headings;
+            height: 2px;
+        }
+    }
+}
+
 /* DESCRIPTIONS OF CHALLENGES */ 
 .process {
     p {
