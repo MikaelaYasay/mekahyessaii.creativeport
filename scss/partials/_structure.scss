@@ -148,27 +148,66 @@
     z-index: 1;
 }
 
-.anim-hero {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/img/AmberAyre_Hero.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.site-main {
+    background-color: $color-white;
 
-    h1 {
-        display: flex;
-        justify-content: center;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
+    .site-hero {
+        position: relative;
 
-    h5 {
-        display: flex;
-        justify-content: center;
+        .banner-img {
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+    
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        h5 {
+            display: flex;
+            justify-content: center;
+        }
+
     }
 }
+
+
+// .anim-hero {
+//     position: relative;
+//     width: 100%;
+//     height: 100vh;
+//     background-image: url(/img/AmberAyre_Hero.svg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+
+//     h1 {
+//         display: flex;
+//         justify-content: center;
+//         font-weight: 700;
+//         text-transform: uppercase;
+//     }
+
+//     h5 {
+//         display: flex;
+//         justify-content: center;
+//     }
+// }
 
 .bg-darkgreen {
     padding: 2em;
