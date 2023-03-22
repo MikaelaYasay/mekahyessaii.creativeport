@@ -2237,6 +2237,15 @@ sections {
     color: #FFFAFA;
   }
 
+  /* HERO IMAGE */
+  .banner .back-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80vh;
+  }
+
   .site-main {
     background-color: #FFFAFA;
   }
