@@ -470,6 +470,20 @@
     }
 }
 
+.ma_mock {
+    margin-top: 2em;
+    .row {
+        padding: .5em 0 .5em 0;
+        .one-half {
+
+            h2 {
+                margin: 0 0 .5em 0;
+            }
+
+        }
+    }
+}
+
 /* SCALED COMPOSITES */ 
 .conatiner {
 

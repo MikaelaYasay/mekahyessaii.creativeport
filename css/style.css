@@ -1207,6 +1207,16 @@ body {
   width: 50%;
 }
 
+.ma_mock {
+  margin-top: 2em;
+}
+.ma_mock .row {
+  padding: 0.5em 0 0.5em 0;
+}
+.ma_mock .row .one-half h2 {
+  margin: 0 0 0.5em 0;
+}
+
 /* SCALED COMPOSITES */
 .conatiner img {
   height: 50vh;
