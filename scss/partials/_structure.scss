@@ -149,29 +149,53 @@
 }
 
 .site-main {
-    background-color: $color-white;
 
     .site-hero {
         width: 100%;
         height: 100vh;
-        background: url(/img/AmberAyre_Hero.svg);
+        background: url("/img/AmberAyre_Hero.svg");
         background-size: cover;
         background-position: center;
+        background-repeat: no-repeat;
+
+        .container {
+            h1 {
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
     
-        h1 {
-            display: flex;
-            justify-content: center;
-            font-weight: 700;
-            text-transform: uppercase;
+            h5 {
+                display: flex;
+                justify-content: center;
+            }
         }
-
-        h5 {
-            display: flex;
-            justify-content: center;
-        }
-
     }
 }
+
+
+// .anim-hero {
+//     position: relative;
+//     width: 100%;
+//     height: 100vh;
+//     background-image: url(/img/AmberAyre_Hero.svg);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+
+//     h1 {
+//         display: flex;
+//         justify-content: center;
+//         font-weight: 700;
+//         text-transform: uppercase;
+//     }
+
+//     h5 {
+//         display: flex;
+//         justify-content: center;
+//     }
+// }
 
 .bg-darkgreen {
     padding: 2em;
@@ -413,30 +437,27 @@
 }
 
 /* SCALED COMPOSITES */ 
-.site-main {
-    background-color: $color-white;
+.anim-hero1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/Scaled_Hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-    .site-hero1 {
-        width: 100%;
-        height: 100vh;
-        background: url(/img/Scaled_Hero.jpg);
-        background-size: cover;
-        background-position: center;
-    
-        h1 {
-            display: flex;
-            justify-content: center;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: $color-white;
-        }
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color-white;
+    }
 
-        h5 {
-            display: flex;
-            justify-content: center;
-            color: $color-white;
-        }
-
+    h5 {
+        display: flex;
+        justify-content: center;
+        color: $color-white;
     }
 }
 
@@ -445,33 +466,56 @@
     img {
         height: 50vh;
     }
+
+}
+
+/* TYPOGRAPHY BOOK */ 
+.anim-hero2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/Typography_Hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h1 {
+        color: $color-white;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    h5 {
+        color: $color-white;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 /* TRILOGY BOOKS */ 
-.site-main {
-    background-color: $color-white;
+.anim-hero3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/TIL_Hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-    .site-hero2 {
-        width: 100%;
-        height: 100vh;
-        background: url(/img/TIL_Hero.jpg);
-        background-size: cover;
-        background-position: center;
-    
-        h1 {
-            display: flex;
-            justify-content: center;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: $color-white;
-        }
+    h1 {
+        color: $color-text-headings;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
 
-        h5 {
-            display: flex;
-            justify-content: center;
-            color: $color-white;
-        }
-
+    h5 {
+        color: $color-text-subheadings;
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -510,30 +554,29 @@
 }
 
 /* DUBAI TOURISM */ 
-.site-main {
-    background-color: $color-white;
+.anim-hero4 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/Dubai_BrujKhalifa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-    .site-hero3 {
-        width: 100%;
-        height: 100vh;
-        background: url(/img/Dubai_BrujKhalifa.jpg);
-        background-size: cover;
-        background-position: center;
-    
-        h1 {
-            display: flex;
-            justify-content: center;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: $color-white;
-        }
+    h1 {
+        color: $color-text-headings;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color-white;
+    }
 
-        h5 {
-            display: flex;
-            justify-content: center;
-            color: $color-white;
-        }
-
+    h5 {
+        color: $color-text-subheadings;
+        display: flex;
+        justify-content: center;
+        color: $color-white;
     }
 }
 
@@ -573,33 +616,6 @@
             height: 2px $color-text-headings;
             height: 2px;
         }
-    }
-}
-
-
-/* TYPOGRAPHY BOOK */ 
-.site-main {
-    background-color: $color-white;
-
-    .site-hero4 {
-        width: 100%;
-        height: 100vh;
-        background: url(/img/Typography_Hero.jpg);
-        background-size: cover;
-        background-position: center;
-    
-        h1 {
-            display: flex;
-            justify-content: center;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-
-        h5 {
-            display: flex;
-            justify-content: center;
-        }
-
     }
 }
 

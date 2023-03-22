@@ -861,17 +861,15 @@ body {
   z-index: 1;
 }
 
-.site-main {
-  background-color: #FFFAFA;
-}
 .site-main .site-hero {
   width: 100%;
   height: 100vh;
-  background: url(/img/AmberAyre_Hero.svg);
+  background: url("/img/AmberAyre_Hero.svg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
-.site-main .site-hero h1 {
+.site-main .site-hero .container h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -881,7 +879,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.site-main .site-hero h5 {
+.site-main .site-hero .container h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1125,17 +1123,16 @@ body {
 }
 
 /* SCALED COMPOSITES */
-.site-main {
-  background-color: #FFFAFA;
-}
-.site-main .site-hero1 {
+.anim-hero1 {
+  position: relative;
   width: 100%;
   height: 100vh;
-  background: url(/img/Scaled_Hero.jpg);
-  background-size: cover;
+  background-image: url(/img/Scaled_Hero.jpg);
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
-.site-main .site-hero1 h1 {
+.anim-hero1 h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1146,7 +1143,7 @@ body {
   text-transform: uppercase;
   color: #FFFAFA;
 }
-.site-main .site-hero1 h5 {
+.anim-hero1 h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1160,18 +1157,18 @@ body {
   height: 50vh;
 }
 
-/* TRILOGY BOOKS */
-.site-main {
-  background-color: #FFFAFA;
-}
-.site-main .site-hero2 {
+/* TYPOGRAPHY BOOK */
+.anim-hero2 {
+  position: relative;
   width: 100%;
   height: 100vh;
-  background: url(/img/TIL_Hero.jpg);
-  background-size: cover;
+  background-image: url(/img/Typography_Hero.jpg);
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
-.site-main .site-hero2 h1 {
+.anim-hero2 h1 {
+  color: #FFFAFA;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1180,16 +1177,46 @@ body {
           justify-content: center;
   font-weight: 700;
   text-transform: uppercase;
-  color: #FFFAFA;
 }
-.site-main .site-hero2 h5 {
+.anim-hero2 h5 {
+  color: #FFFAFA;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #FFFAFA;
+}
+
+/* TRILOGY BOOKS */
+.anim-hero3 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/img/TIL_Hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.anim-hero3 h1 {
+  color: #353b3c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.anim-hero3 h5 {
+  color: #474f50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .podcast {
@@ -1229,17 +1256,17 @@ body {
 }
 
 /* DUBAI TOURISM */
-.site-main {
-  background-color: #FFFAFA;
-}
-.site-main .site-hero3 {
+.anim-hero4 {
+  position: relative;
   width: 100%;
   height: 100vh;
-  background: url(/img/Dubai_BrujKhalifa.jpg);
-  background-size: cover;
+  background-image: url(/img/Dubai_BrujKhalifa.jpg);
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
-.site-main .site-hero3 h1 {
+.anim-hero4 h1 {
+  color: #353b3c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1250,7 +1277,8 @@ body {
   text-transform: uppercase;
   color: #FFFAFA;
 }
-.site-main .site-hero3 h5 {
+.anim-hero4 h5 {
+  color: #474f50;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1299,36 +1327,6 @@ body {
   max-width: 20px;
   height: 2px #353b3c;
   height: 2px;
-}
-
-/* TYPOGRAPHY BOOK */
-.site-main {
-  background-color: #FFFAFA;
-}
-.site-main .site-hero4 {
-  width: 100%;
-  height: 100vh;
-  background: url(/img/Typography_Hero.jpg);
-  background-size: cover;
-  background-position: center;
-}
-.site-main .site-hero4 h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.site-main .site-hero4 h5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 /* DESCRIPTIONS OF CHALLENGES */
