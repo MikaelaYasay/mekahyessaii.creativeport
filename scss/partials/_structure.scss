@@ -57,6 +57,89 @@
 
 }
 
+/* HERO STRUCTURE */ 
+.site-main {
+    background-color: $color-white;
+
+    .banner {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .hero-name-dark {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        h5 {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.site-main {
+    background-color: $color-white;
+
+    .banner {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .back-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .hero-name {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: -100px;
+        left: 0;
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: $color-white;
+        }
+
+        h5 {
+            display: flex;
+            justify-content: center;
+            color: $color-white;
+        }
+    }
+}
+
 /* HERO SECTION */
 .hero {
     background-color: $color-white-bg;
@@ -146,46 +229,6 @@
 .site-header,
 .site-header-white {
     z-index: 1;
-}
-
-.site-main {
-    background-color: $color-white;
-
-    .banner {
-        width: 100%;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            object-fit: cover;
-            width: 100%;
-        }
-    }
-
-    .hero-name-dark {
-        margin: 0;
-        padding: 0;
-        position: relative;
-        top: 0;
-        left: 0;
-
-        h1 {
-            display: flex;
-            justify-content: center;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-
-        h5 {
-            display: flex;
-            justify-content: center;
-        }
-    }
 }
 
 .bg-darkgreen {
@@ -428,48 +471,6 @@
 }
 
 /* SCALED COMPOSITES */ 
-.site-main {
-    background-color: $color-white;
-
-    .banner {
-        width: 100%;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .back-img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        object-fit: cover;
-        width: 100%;
-    }
-
-    .hero-name {
-        margin: 0;
-        padding: 0;
-        position: relative;
-        top: -100px;
-        left: 0;
-
-        h1 {
-            display: flex;
-            justify-content: center;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: $color-white;
-        }
-
-        h5 {
-            display: flex;
-            justify-content: center;
-            color: $color-white;
-        }
-    }
-}
-
 .conatiner {
 
     img {
