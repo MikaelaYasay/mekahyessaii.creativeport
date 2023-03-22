@@ -149,29 +149,41 @@
 }
 
 .site-main {
+    background-color: $color-white;
 
-    .site-hero {
+    .banner {
         width: 100%;
-        height: 100vh;
-        background: url("/img/AmberAyre_Hero.svg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        .container {
-            .hero-title {
-                h1 {
-                    display: flex;
-                    justify-content: center;
-                    font-weight: 700;
-                    text-transform: uppercase;
-                }
-        
-                h5 {
-                    display: flex;
-                    justify-content: center;
-                }
-            }
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .hero-name-dark {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        h5 {
+            display: flex;
+            justify-content: center;
         }
     }
 }
@@ -417,31 +429,43 @@
 
 /* SCALED COMPOSITES */ 
 .site-main {
+    background-color: $color-white;
 
-    .site-hero1 {
+    .banner {
         width: 100%;
-        height: 100vh;
-        background: url("/img/Scaled_Hero.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-        .container {
-            .hero-title {
-                h1 {
-                    display: flex;
-                    justify-content: center;
-                    font-weight: 700;
-                    text-transform: uppercase;
-                    color: $color-white;
-                }
-        
-                h5 {
-                    display: flex;
-                    justify-content: center;
-                    color: $color-white;
-                }
-            }
+    .back-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .hero-name {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: -100px;
+        left: 0;
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: $color-white;
+        }
+
+        h5 {
+            display: flex;
+            justify-content: center;
+            color: $color-white;
         }
     }
 }
@@ -456,29 +480,41 @@
 
 /* TRILOGY BOOKS */ 
 .site-main {
+    background-color: $color-white;
 
-    .site-hero2 {
+    .banner {
         width: 100%;
-        height: 100vh;
-        background: url("/img/TIL_Hero.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-        .container {
-            .hero-title {
-                h1 {
-                    display: flex;
-                    justify-content: center;
-                    font-weight: 700;
-                    text-transform: uppercase;
-                }
-        
-                h5 {
-                    display: flex;
-                    justify-content: center;
-                }
-            }
+    .back-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .hero-name-dark {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: -100px;
+        left: 0;
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        h5 {
+            display: flex;
+            justify-content: center;
         }
     }
 }

@@ -337,6 +337,63 @@
             filter: opacity(10%);
         }
     }
+    
+    /* HERO IMAGE */ 
+    .banner {
+        .back-img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 90vh;
+        }
+    }
+
+
+    .site-main {
+        background-color: $color-white;
+
+        .banner {
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+
+        .hero-name {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0;
+            left: 0;
+
+            h1 {
+                padding: 0 0 0 .15em ;
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 3em;
+                color: $color-white;
+            }
+
+            h5 {
+                display: flex;
+                justify-content: center;
+                font-size: 1em;
+                color: $color-white;
+            }
+        }
+    }
 
     /* SEE MORE WORK */ 
     .see-more {
@@ -508,6 +565,94 @@
             p {
                 font-size: 1em;
                 margin: 1em auto;
+            }
+        }
+    }
+
+    .site-main {
+        background-color: $color-white;
+
+        .banner {
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+
+        .hero-name {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0;
+            left: 0;
+
+            h1 {
+                padding: 0 0 0 .15em ;
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 2em;
+                color: $color-white;
+            }
+
+            h5 {
+                display: flex;
+                justify-content: center;
+                font-size: 1em;
+                color: $color-white;
+            }
+        }
+    }
+
+    .site-main {
+        background-color: $color-white;
+
+        .banner {
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+
+        .hero-name-dark {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: 0;
+            left: 0;
+
+            h1 {
+                padding: 0 0 0 .15em ;
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 3em;
+            }
+
+            h5 {
+                display: flex;
+                justify-content: center;
+                font-size: .8em;
             }
         }
     }

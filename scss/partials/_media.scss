@@ -20,6 +20,17 @@ img {
     filter: opacity(10%);
 }
 
+/* HERO IMAGE */ 
+.banner {
+    .back-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 80vh;
+    }
+}
+
 /* ANIMATED HERO NAME */ 
 #logo {
     animation: fill ease 0.5s forwards 4s;

@@ -225,6 +225,15 @@ img {
           filter: opacity(10%);
 }
 
+/* HERO IMAGE */
+.banner .back-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80vh;
+}
+
 /* ANIMATED HERO NAME */
 #logo {
   -webkit-animation: fill ease 0.5s forwards 4s;
@@ -861,15 +870,38 @@ body {
   z-index: 1;
 }
 
-.site-main .site-hero {
-  width: 100%;
-  height: 100vh;
-  background: url("/img/AmberAyre_Hero.svg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.site-main {
+  background-color: #FFFAFA;
 }
-.site-main .site-hero .container .hero-title h1 {
+.site-main .banner {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-main .banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.site-main .hero-name-dark {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.site-main .hero-name-dark h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -879,7 +911,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.site-main .site-hero .container .hero-title h5 {
+.site-main .hero-name-dark h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1123,15 +1155,38 @@ body {
 }
 
 /* SCALED COMPOSITES */
-.site-main .site-hero1 {
-  width: 100%;
-  height: 100vh;
-  background: url("/img/Scaled_Hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.site-main {
+  background-color: #FFFAFA;
 }
-.site-main .site-hero1 .container .hero-title h1 {
+.site-main .banner {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-main .back-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.site-main .hero-name {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -100px;
+  left: 0;
+}
+.site-main .hero-name h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1142,7 +1197,7 @@ body {
   text-transform: uppercase;
   color: #FFFAFA;
 }
-.site-main .site-hero1 .container .hero-title h5 {
+.site-main .hero-name h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1157,15 +1212,38 @@ body {
 }
 
 /* TRILOGY BOOKS */
-.site-main .site-hero2 {
-  width: 100%;
-  height: 100vh;
-  background: url("/img/TIL_Hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.site-main {
+  background-color: #FFFAFA;
 }
-.site-main .site-hero2 .container .hero-title h1 {
+.site-main .banner {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-main .back-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.site-main .hero-name-dark {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -100px;
+  left: 0;
+}
+.site-main .hero-name-dark h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1175,7 +1253,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.site-main .site-hero2 .container .hero-title h5 {
+.site-main .hero-name-dark h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1868,6 +1946,70 @@ sections {
             filter: opacity(10%);
   }
 
+  /* HERO IMAGE */
+  .banner .back-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90vh;
+  }
+
+  .site-main {
+    background-color: #FFFAFA;
+  }
+  .site-main .banner {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .site-main .banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .site-main .hero-name {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .site-main .hero-name h1 {
+    padding: 0 0 0 0.15em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: #FFFAFA;
+  }
+  .site-main .hero-name h5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 1em;
+    color: #FFFAFA;
+  }
+
   /* SEE MORE WORK */
   .see-more {
     background-color: #F8F7F3;
@@ -2037,6 +2179,114 @@ sections {
   .hero .container p {
     font-size: 1em;
     margin: 1em auto;
+  }
+
+  .site-main {
+    background-color: #FFFAFA;
+  }
+  .site-main .banner {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .site-main .banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .site-main .hero-name {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .site-main .hero-name h1 {
+    padding: 0 0 0 0.15em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #FFFAFA;
+  }
+  .site-main .hero-name h5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 1em;
+    color: #FFFAFA;
+  }
+
+  .site-main {
+    background-color: #FFFAFA;
+  }
+  .site-main .banner {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .site-main .banner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
+  .site-main .hero-name-dark {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .site-main .hero-name-dark h1 {
+    padding: 0 0 0 0.15em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3em;
+  }
+  .site-main .hero-name-dark h5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 0.8em;
   }
 
   /* TRILOGY PODCASTS */
