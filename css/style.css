@@ -861,7 +861,7 @@ body {
   z-index: 1;
 }
 
-#anim-hero {
+.anim-hero {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -870,7 +870,7 @@ body {
   background-position: center;
   background-size: cover;
 }
-#anim-hero h1 {
+.anim-hero h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -880,7 +880,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-#anim-hero h5 {
+.anim-hero h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1124,7 +1124,7 @@ body {
 }
 
 /* SCALED COMPOSITES */
-#anim-hero1 {
+.anim-hero1 {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -1133,7 +1133,7 @@ body {
   background-position: center;
   background-size: cover;
 }
-#anim-hero1 h1 {
+.anim-hero1 h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1144,7 +1144,7 @@ body {
   text-transform: uppercase;
   color: #FFFAFA;
 }
-#anim-hero1 h5 {
+.anim-hero1 h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1159,7 +1159,7 @@ body {
 }
 
 /* TYPOGRAPHY BOOK */
-#anim-hero2 {
+.anim-hero2 {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -1168,7 +1168,7 @@ body {
   background-position: center;
   background-size: cover;
 }
-#anim-hero2 h1 {
+.anim-hero2 h1 {
   color: #FFFAFA;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1179,7 +1179,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-#anim-hero2 h5 {
+.anim-hero2 h5 {
   color: #FFFAFA;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1190,7 +1190,7 @@ body {
 }
 
 /* TRILOGY BOOKS */
-#anim-hero3 {
+.anim-hero3 {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -1199,7 +1199,7 @@ body {
   background-position: center;
   background-size: cover;
 }
-#anim-hero3 h1 {
+.anim-hero3 h1 {
   color: #353b3c;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1210,7 +1210,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-#anim-hero3 h5 {
+.anim-hero3 h5 {
   color: #474f50;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1257,7 +1257,7 @@ body {
 }
 
 /* DUBAI TOURISM */
-#anim-hero4 {
+.anim-hero4 {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -1266,7 +1266,7 @@ body {
   background-position: center;
   background-size: cover;
 }
-#anim-hero4 h1 {
+.anim-hero4 h1 {
   color: #353b3c;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1278,7 +1278,7 @@ body {
   text-transform: uppercase;
   color: #FFFAFA;
 }
-#anim-hero4 h5 {
+.anim-hero4 h5 {
   color: #474f50;
   display: -webkit-box;
   display: -ms-flexbox;
