@@ -1123,16 +1123,15 @@ body {
 }
 
 /* SCALED COMPOSITES */
-.anim-hero1 {
-  position: relative;
+.site-main .site-hero1 {
   width: 100%;
   height: 100vh;
-  background-image: url(/img/Scaled_Hero.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("/img/Scaled_Hero.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.anim-hero1 h1 {
+.site-main .site-hero1 .container h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1141,65 +1140,30 @@ body {
           justify-content: center;
   font-weight: 700;
   text-transform: uppercase;
-  color: #FFFAFA;
 }
-.anim-hero1 h5 {
+.site-main .site-hero1 .container h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #FFFAFA;
 }
 
 .conatiner img {
   height: 50vh;
-}
-
-/* TYPOGRAPHY BOOK */
-.anim-hero2 {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-image: url(/img/Typography_Hero.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.anim-hero2 h1 {
-  color: #FFFAFA;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.anim-hero2 h5 {
-  color: #FFFAFA;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 /* TRILOGY BOOKS */
-.anim-hero3 {
-  position: relative;
+.site-main .site-hero2 {
   width: 100%;
   height: 100vh;
-  background-image: url(/img/TIL_Hero.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("/img/TIL_Hero.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.anim-hero3 h1 {
-  color: #353b3c;
+.site-main .site-hero2 .container h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1209,8 +1173,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.anim-hero3 h5 {
-  color: #474f50;
+.site-main .site-hero2 .container h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1256,17 +1219,15 @@ body {
 }
 
 /* DUBAI TOURISM */
-.anim-hero4 {
-  position: relative;
+.site-main .site-hero3 {
   width: 100%;
   height: 100vh;
-  background-image: url(/img/Dubai_BrujKhalifa.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url("/img/Dubai_BrujKhalifa.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.anim-hero4 h1 {
-  color: #353b3c;
+.site-main .site-hero3 .container h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1275,17 +1236,14 @@ body {
           justify-content: center;
   font-weight: 700;
   text-transform: uppercase;
-  color: #FFFAFA;
 }
-.anim-hero4 h5 {
-  color: #474f50;
+.site-main .site-hero3 .container h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #FFFAFA;
 }
 
 .bg-blue {
@@ -1327,6 +1285,34 @@ body {
   max-width: 20px;
   height: 2px #353b3c;
   height: 2px;
+}
+
+/* TYPOGRAPHY BOOK */
+.site-main .site-hero4 {
+  width: 100%;
+  height: 100vh;
+  background: url("/img/Typography_Hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.site-main .site-hero4 .container h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.site-main .site-hero4 .container h5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* DESCRIPTIONS OF CHALLENGES */

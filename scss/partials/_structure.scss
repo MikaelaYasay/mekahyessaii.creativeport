@@ -174,29 +174,6 @@
     }
 }
 
-
-// .anim-hero {
-//     position: relative;
-//     width: 100%;
-//     height: 100vh;
-//     background-image: url(/img/AmberAyre_Hero.svg);
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     background-size: cover;
-
-//     h1 {
-//         display: flex;
-//         justify-content: center;
-//         font-weight: 700;
-//         text-transform: uppercase;
-//     }
-
-//     h5 {
-//         display: flex;
-//         justify-content: center;
-//     }
-// }
-
 .bg-darkgreen {
     padding: 2em;
 
@@ -437,27 +414,29 @@
 }
 
 /* SCALED COMPOSITES */ 
-.anim-hero1 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/img/Scaled_Hero.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.site-main {
 
-    h1 {
-        display: flex;
-        justify-content: center;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: $color-white;
-    }
+    .site-hero1 {
+        width: 100%;
+        height: 100vh;
+        background: url("/img/Scaled_Hero.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
 
-    h5 {
-        display: flex;
-        justify-content: center;
-        color: $color-white;
+        .container {
+            h1 {
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+    
+            h5 {
+                display: flex;
+                justify-content: center;
+            }
+        }
     }
 }
 
@@ -469,53 +448,30 @@
 
 }
 
-/* TYPOGRAPHY BOOK */ 
-.anim-hero2 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/img/Typography_Hero.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    h1 {
-        color: $color-white;
-        display: flex;
-        justify-content: center;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    h5 {
-        color: $color-white;
-        display: flex;
-        justify-content: center;
-    }
-}
-
 /* TRILOGY BOOKS */ 
-.anim-hero3 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/img/TIL_Hero.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.site-main {
 
-    h1 {
-        color: $color-text-headings;
-        display: flex;
-        justify-content: center;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
+    .site-hero2 {
+        width: 100%;
+        height: 100vh;
+        background: url("/img/TIL_Hero.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
 
-    h5 {
-        color: $color-text-subheadings;
-        display: flex;
-        justify-content: center;
+        .container {
+            h1 {
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+    
+            h5 {
+                display: flex;
+                justify-content: center;
+            }
+        }
     }
 }
 
@@ -554,29 +510,29 @@
 }
 
 /* DUBAI TOURISM */ 
-.anim-hero4 {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url(/img/Dubai_BrujKhalifa.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.site-main {
 
-    h1 {
-        color: $color-text-headings;
-        display: flex;
-        justify-content: center;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: $color-white;
-    }
+    .site-hero3 {
+        width: 100%;
+        height: 100vh;
+        background: url("/img/Dubai_BrujKhalifa.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
 
-    h5 {
-        color: $color-text-subheadings;
-        display: flex;
-        justify-content: center;
-        color: $color-white;
+        .container {
+            h1 {
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+    
+            h5 {
+                display: flex;
+                justify-content: center;
+            }
+        }
     }
 }
 
@@ -615,6 +571,33 @@
             max-width: 20px;
             height: 2px $color-text-headings;
             height: 2px;
+        }
+    }
+}
+
+/* TYPOGRAPHY BOOK */ 
+.site-main {
+
+    .site-hero4 {
+        width: 100%;
+        height: 100vh;
+        background: url("/img/Typography_Hero.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .container {
+            h1 {
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+    
+            h5 {
+                display: flex;
+                justify-content: center;
+            }
         }
     }
 }
