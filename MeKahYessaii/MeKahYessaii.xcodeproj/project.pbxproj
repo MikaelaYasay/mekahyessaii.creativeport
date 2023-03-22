@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD39391129CBA65400E41C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD39391029CBA65400E41C22 /* AppDelegate.swift */; };
+		FD39391329CBA65400E41C22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD39391229CBA65400E41C22 /* SceneDelegate.swift */; };
+		FD39391629CBA65400E41C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD39391429CBA65400E41C22 /* LaunchScreen.storyboard */; };
+		FD39391929CBA65400E41C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD39391729CBA65400E41C22 /* Main.storyboard */; };
+		FD39392229CBA65500E41C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD39392129CBA65500E41C22 /* AppDelegate.swift */; };
+		FD39392529CBA65500E41C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD39392329CBA65500E41C22 /* Main.storyboard */; };
+		FD39392C29CBA65500E41C22 /* MeKahYessaii Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FD39392B29CBA65500E41C22 /* MeKahYessaii Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FD39393629CBA65500E41C22 /* MeKahYessaii Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FD39393529CBA65500E41C22 /* MeKahYessaii Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FD39393C29CBA65500E41C22 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FD3938F729CBA65400E41C22 /* Main.html */; };
+		FD39393D29CBA65500E41C22 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FD3938F729CBA65400E41C22 /* Main.html */; };
+		FD39393E29CBA65500E41C22 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3938F929CBA65400E41C22 /* Icon.png */; };
+		FD39393F29CBA65500E41C22 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3938F929CBA65400E41C22 /* Icon.png */; };
+		FD39394029CBA65500E41C22 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FD3938FA29CBA65400E41C22 /* Style.css */; };
+		FD39394129CBA65500E41C22 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FD3938FA29CBA65400E41C22 /* Style.css */; };
+		FD39394229CBA65500E41C22 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FD3938FB29CBA65400E41C22 /* Script.js */; };
+		FD39394329CBA65500E41C22 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FD3938FB29CBA65400E41C22 /* Script.js */; };
+		FD39394429CBA65500E41C22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3938FC29CBA65400E41C22 /* ViewController.swift */; };
+		FD39394529CBA65500E41C22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3938FC29CBA65400E41C22 /* ViewController.swift */; };
+		FD39394629CBA65500E41C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3938FD29CBA65400E41C22 /* Assets.xcassets */; };
+		FD39394729CBA65500E41C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3938FD29CBA65400E41C22 /* Assets.xcassets */; };
+		FD39394829CBA65500E41C22 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3938FF29CBA65400E41C22 /* SafariWebExtensionHandler.swift */; };
+		FD39394929CBA65500E41C22 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3938FF29CBA65400E41C22 /* SafariWebExtensionHandler.swift */; };
+		FD39394A29CBA65500E41C22 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FD39390129CBA65400E41C22 /* _locales */; };
+		FD39394B29CBA65500E41C22 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FD39390129CBA65400E41C22 /* _locales */; };
+		FD39394C29CBA65500E41C22 /* images in Resources */ = {isa = PBXBuildFile; fileRef = FD39390229CBA65400E41C22 /* images */; };
+		FD39394D29CBA65500E41C22 /* images in Resources */ = {isa = PBXBuildFile; fileRef = FD39390229CBA65400E41C22 /* images */; };
+		FD39394E29CBA65500E41C22 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FD39390329CBA65400E41C22 /* manifest.json */; };
+		FD39394F29CBA65500E41C22 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FD39390329CBA65400E41C22 /* manifest.json */; };
+		FD39395029CBA65500E41C22 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FD39390429CBA65400E41C22 /* background.js */; };
+		FD39395129CBA65500E41C22 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FD39390429CBA65400E41C22 /* background.js */; };
+		FD39395229CBA65500E41C22 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FD39390529CBA65400E41C22 /* content.js */; };
+		FD39395329CBA65500E41C22 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FD39390529CBA65400E41C22 /* content.js */; };
+		FD39395429CBA65500E41C22 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FD39390629CBA65400E41C22 /* popup.html */; };
+		FD39395529CBA65500E41C22 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FD39390629CBA65400E41C22 /* popup.html */; };
+		FD39395629CBA65500E41C22 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FD39390729CBA65400E41C22 /* popup.css */; };
+		FD39395729CBA65500E41C22 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FD39390729CBA65400E41C22 /* popup.css */; };
+		FD39395829CBA65500E41C22 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FD39390829CBA65400E41C22 /* popup.js */; };
+		FD39395929CBA65500E41C22 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FD39390829CBA65400E41C22 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD39392D29CBA65500E41C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3938F129CBA65400E41C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD39392A29CBA65500E41C22;
+			remoteInfo = "MeKahYessaii Extension (iOS)";
+		};
+		FD39393729CBA65500E41C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3938F129CBA65400E41C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD39393429CBA65500E41C22;
+			remoteInfo = "MeKahYessaii Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD39395F29CBA65500E41C22 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FD39392C29CBA65500E41C22 /* MeKahYessaii Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD39396629CBA65500E41C22 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FD39393629CBA65500E41C22 /* MeKahYessaii Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FD3938F829CBA65400E41C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		FD3938F929CBA65400E41C22 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FD3938FA29CBA65400E41C22 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		FD3938FB29CBA65400E41C22 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		FD3938FC29CBA65400E41C22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD3938FD29CBA65400E41C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD3938FF29CBA65400E41C22 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		FD39390129CBA65400E41C22 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		FD39390229CBA65400E41C22 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		FD39390329CBA65400E41C22 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		FD39390429CBA65400E41C22 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		FD39390529CBA65400E41C22 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		FD39390629CBA65400E41C22 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		FD39390729CBA65400E41C22 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		FD39390829CBA65400E41C22 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		FD39390D29CBA65400E41C22 /* MeKahYessaii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeKahYessaii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD39391029CBA65400E41C22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD39391229CBA65400E41C22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD39391529CBA65400E41C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD39391829CBA65400E41C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD39391A29CBA65500E41C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD39391F29CBA65500E41C22 /* MeKahYessaii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeKahYessaii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD39392129CBA65500E41C22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD39392429CBA65500E41C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD39392629CBA65500E41C22 /* MeKahYessaii.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeKahYessaii.entitlements; sourceTree = "<group>"; };
+		FD39392B29CBA65500E41C22 /* MeKahYessaii Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MeKahYessaii Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD39393029CBA65500E41C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD39393529CBA65500E41C22 /* MeKahYessaii Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MeKahYessaii Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD39393A29CBA65500E41C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD39393B29CBA65500E41C22 /* MeKahYessaii.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeKahYessaii.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD39390A29CBA65400E41C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD39391C29CBA65500E41C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD39392829CBA65500E41C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD39393229CBA65500E41C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD3938F029CBA65400E41C22 = {
+			isa = PBXGroup;
+			children = (
+				FD3938F529CBA65400E41C22 /* Shared (App) */,
+				FD3938FE29CBA65400E41C22 /* Shared (Extension) */,
+				FD39390F29CBA65400E41C22 /* iOS (App) */,
+				FD39392029CBA65500E41C22 /* macOS (App) */,
+				FD39392F29CBA65500E41C22 /* iOS (Extension) */,
+				FD39393929CBA65500E41C22 /* macOS (Extension) */,
+				FD39390E29CBA65400E41C22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD3938F529CBA65400E41C22 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FD3938FC29CBA65400E41C22 /* ViewController.swift */,
+				FD3938FD29CBA65400E41C22 /* Assets.xcassets */,
+				FD3938F629CBA65400E41C22 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		FD3938F629CBA65400E41C22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD3938F729CBA65400E41C22 /* Main.html */,
+				FD3938F929CBA65400E41C22 /* Icon.png */,
+				FD3938FA29CBA65400E41C22 /* Style.css */,
+				FD3938FB29CBA65400E41C22 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FD3938FE29CBA65400E41C22 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FD3938FF29CBA65400E41C22 /* SafariWebExtensionHandler.swift */,
+				FD39390029CBA65400E41C22 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		FD39390029CBA65400E41C22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD39390129CBA65400E41C22 /* _locales */,
+				FD39390229CBA65400E41C22 /* images */,
+				FD39390329CBA65400E41C22 /* manifest.json */,
+				FD39390429CBA65400E41C22 /* background.js */,
+				FD39390529CBA65400E41C22 /* content.js */,
+				FD39390629CBA65400E41C22 /* popup.html */,
+				FD39390729CBA65400E41C22 /* popup.css */,
+				FD39390829CBA65400E41C22 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FD39390E29CBA65400E41C22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD39390D29CBA65400E41C22 /* MeKahYessaii.app */,
+				FD39391F29CBA65500E41C22 /* MeKahYessaii.app */,
+				FD39392B29CBA65500E41C22 /* MeKahYessaii Extension.appex */,
+				FD39393529CBA65500E41C22 /* MeKahYessaii Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD39390F29CBA65400E41C22 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FD39391029CBA65400E41C22 /* AppDelegate.swift */,
+				FD39391229CBA65400E41C22 /* SceneDelegate.swift */,
+				FD39391429CBA65400E41C22 /* LaunchScreen.storyboard */,
+				FD39391729CBA65400E41C22 /* Main.storyboard */,
+				FD39391A29CBA65500E41C22 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		FD39392029CBA65500E41C22 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FD39392129CBA65500E41C22 /* AppDelegate.swift */,
+				FD39392329CBA65500E41C22 /* Main.storyboard */,
+				FD39392629CBA65500E41C22 /* MeKahYessaii.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		FD39392F29CBA65500E41C22 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FD39393029CBA65500E41C22 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		FD39393929CBA65500E41C22 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FD39393A29CBA65500E41C22 /* Info.plist */,
+				FD39393B29CBA65500E41C22 /* MeKahYessaii.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD39390C29CBA65400E41C22 /* MeKahYessaii (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD39396029CBA65500E41C22 /* Build configuration list for PBXNativeTarget "MeKahYessaii (iOS)" */;
+			buildPhases = (
+				FD39390929CBA65400E41C22 /* Sources */,
+				FD39390A29CBA65400E41C22 /* Frameworks */,
+				FD39390B29CBA65400E41C22 /* Resources */,
+				FD39395F29CBA65500E41C22 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD39392E29CBA65500E41C22 /* PBXTargetDependency */,
+			);
+			name = "MeKahYessaii (iOS)";
+			productName = "MeKahYessaii (iOS)";
+			productReference = FD39390D29CBA65400E41C22 /* MeKahYessaii.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD39391E29CBA65500E41C22 /* MeKahYessaii (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD39396729CBA65500E41C22 /* Build configuration list for PBXNativeTarget "MeKahYessaii (macOS)" */;
+			buildPhases = (
+				FD39391B29CBA65500E41C22 /* Sources */,
+				FD39391C29CBA65500E41C22 /* Frameworks */,
+				FD39391D29CBA65500E41C22 /* Resources */,
+				FD39396629CBA65500E41C22 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD39393829CBA65500E41C22 /* PBXTargetDependency */,
+			);
+			name = "MeKahYessaii (macOS)";
+			productName = "MeKahYessaii (macOS)";
+			productReference = FD39391F29CBA65500E41C22 /* MeKahYessaii.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD39392A29CBA65500E41C22 /* MeKahYessaii Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD39395C29CBA65500E41C22 /* Build configuration list for PBXNativeTarget "MeKahYessaii Extension (iOS)" */;
+			buildPhases = (
+				FD39392729CBA65500E41C22 /* Sources */,
+				FD39392829CBA65500E41C22 /* Frameworks */,
+				FD39392929CBA65500E41C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MeKahYessaii Extension (iOS)";
+			productName = "MeKahYessaii Extension (iOS)";
+			productReference = FD39392B29CBA65500E41C22 /* MeKahYessaii Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FD39393429CBA65500E41C22 /* MeKahYessaii Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD39396329CBA65500E41C22 /* Build configuration list for PBXNativeTarget "MeKahYessaii Extension (macOS)" */;
+			buildPhases = (
+				FD39393129CBA65500E41C22 /* Sources */,
+				FD39393229CBA65500E41C22 /* Frameworks */,
+				FD39393329CBA65500E41C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MeKahYessaii Extension (macOS)";
+			productName = "MeKahYessaii Extension (macOS)";
+			productReference = FD39393529CBA65500E41C22 /* MeKahYessaii Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD3938F129CBA65400E41C22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FD39390C29CBA65400E41C22 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FD39391E29CBA65500E41C22 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FD39392A29CBA65500E41C22 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FD39393429CBA65500E41C22 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FD3938F429CBA65400E41C22 /* Build configuration list for PBXProject "MeKahYessaii" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD3938F029CBA65400E41C22;
+			productRefGroup = FD39390E29CBA65400E41C22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD39390C29CBA65400E41C22 /* MeKahYessaii (iOS) */,
+				FD39391E29CBA65500E41C22 /* MeKahYessaii (macOS) */,
+				FD39392A29CBA65500E41C22 /* MeKahYessaii Extension (iOS) */,
+				FD39393429CBA65500E41C22 /* MeKahYessaii Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD39390B29CBA65400E41C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD39393E29CBA65500E41C22 /* Icon.png in Resources */,
+				FD39391629CBA65400E41C22 /* LaunchScreen.storyboard in Resources */,
+				FD39393C29CBA65500E41C22 /* Main.html in Resources */,
+				FD39394229CBA65500E41C22 /* Script.js in Resources */,
+				FD39394629CBA65500E41C22 /* Assets.xcassets in Resources */,
+				FD39391929CBA65400E41C22 /* Main.storyboard in Resources */,
+				FD39394029CBA65500E41C22 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD39391D29CBA65500E41C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD39393F29CBA65500E41C22 /* Icon.png in Resources */,
+				FD39394129CBA65500E41C22 /* Style.css in Resources */,
+				FD39392529CBA65500E41C22 /* Main.storyboard in Resources */,
+				FD39394329CBA65500E41C22 /* Script.js in Resources */,
+				FD39394729CBA65500E41C22 /* Assets.xcassets in Resources */,
+				FD39393D29CBA65500E41C22 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD39392929CBA65500E41C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD39395029CBA65500E41C22 /* background.js in Resources */,
+				FD39395629CBA65500E41C22 /* popup.css in Resources */,
+				FD39395429CBA65500E41C22 /* popup.html in Resources */,
+				FD39394C29CBA65500E41C22 /* images in Resources */,
+				FD39394E29CBA65500E41C22 /* manifest.json in Resources */,
+				FD39394A29CBA65500E41C22 /* _locales in Resources */,
+				FD39395229CBA65500E41C22 /* content.js in Resources */,
+				FD39395829CBA65500E41C22 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD39393329CBA65500E41C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD39395129CBA65500E41C22 /* background.js in Resources */,
+				FD39395729CBA65500E41C22 /* popup.css in Resources */,
+				FD39395529CBA65500E41C22 /* popup.html in Resources */,
+				FD39394D29CBA65500E41C22 /* images in Resources */,
+				FD39394F29CBA65500E41C22 /* manifest.json in Resources */,
+				FD39394B29CBA65500E41C22 /* _locales in Resources */,
+				FD39395329CBA65500E41C22 /* content.js in Resources */,
+				FD39395929CBA65500E41C22 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD39390929CBA65400E41C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD39394429CBA65500E41C22 /* ViewController.swift in Sources */,
+				FD39391129CBA65400E41C22 /* AppDelegate.swift in Sources */,
+				FD39391329CBA65400E41C22 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD39391B29CBA65500E41C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD39394529CBA65500E41C22 /* ViewController.swift in Sources */,
+				FD39392229CBA65500E41C22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD39392729CBA65500E41C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD39394829CBA65500E41C22 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD39393129CBA65500E41C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD39394929CBA65500E41C22 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD39392E29CBA65500E41C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD39392A29CBA65500E41C22 /* MeKahYessaii Extension (iOS) */;
+			targetProxy = FD39392D29CBA65500E41C22 /* PBXContainerItemProxy */;
+		};
+		FD39393829CBA65500E41C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD39393429CBA65500E41C22 /* MeKahYessaii Extension (macOS) */;
+			targetProxy = FD39393729CBA65500E41C22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD3938F729CBA65400E41C22 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3938F829CBA65400E41C22 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		FD39391429CBA65400E41C22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD39391529CBA65400E41C22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FD39391729CBA65400E41C22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD39391829CBA65400E41C22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD39392329CBA65500E41C22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD39392429CBA65500E41C22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD39395A29CBA65500E41C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD39395B29CBA65500E41C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FD39395D29CBA65500E41C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MeKahYessaii Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Self.MeKahYessaii.Extension;
+				PRODUCT_NAME = "MeKahYessaii Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD39395E29CBA65500E41C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MeKahYessaii Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Self.MeKahYessaii.Extension;
+				PRODUCT_NAME = "MeKahYessaii Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD39396129CBA65500E41C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MeKahYessaii;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Self.MeKahYessaii;
+				PRODUCT_NAME = MeKahYessaii;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD39396229CBA65500E41C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MeKahYessaii;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Self.MeKahYessaii;
+				PRODUCT_NAME = MeKahYessaii;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD39396429CBA65500E41C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/MeKahYessaii.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MeKahYessaii Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Self.MeKahYessaii.Extension;
+				PRODUCT_NAME = "MeKahYessaii Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FD39396529CBA65500E41C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/MeKahYessaii.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MeKahYessaii Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Self.MeKahYessaii.Extension;
+				PRODUCT_NAME = "MeKahYessaii Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FD39396829CBA65500E41C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/MeKahYessaii.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MeKahYessaii;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Self.MeKahYessaii;
+				PRODUCT_NAME = MeKahYessaii;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FD39396929CBA65500E41C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/MeKahYessaii.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MeKahYessaii;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Self.MeKahYessaii;
+				PRODUCT_NAME = MeKahYessaii;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD3938F429CBA65400E41C22 /* Build configuration list for PBXProject "MeKahYessaii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD39395A29CBA65500E41C22 /* Debug */,
+				FD39395B29CBA65500E41C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD39395C29CBA65500E41C22 /* Build configuration list for PBXNativeTarget "MeKahYessaii Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD39395D29CBA65500E41C22 /* Debug */,
+				FD39395E29CBA65500E41C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD39396029CBA65500E41C22 /* Build configuration list for PBXNativeTarget "MeKahYessaii (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD39396129CBA65500E41C22 /* Debug */,
+				FD39396229CBA65500E41C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD39396329CBA65500E41C22 /* Build configuration list for PBXNativeTarget "MeKahYessaii Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD39396429CBA65500E41C22 /* Debug */,
+				FD39396529CBA65500E41C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD39396729CBA65500E41C22 /* Build configuration list for PBXNativeTarget "MeKahYessaii (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD39396829CBA65500E41C22 /* Debug */,
+				FD39396929CBA65500E41C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD3938F129CBA65400E41C22 /* Project object */;
+}
