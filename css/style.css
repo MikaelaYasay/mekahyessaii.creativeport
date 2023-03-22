@@ -869,7 +869,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.site-main .site-hero .container h1 {
+.site-main .site-hero .container .hero-title h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -879,7 +879,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.site-main .site-hero .container h5 {
+.site-main .site-hero .container .hero-title h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1131,7 +1131,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.site-main .site-hero1 .container h1 {
+.site-main .site-hero1 .container .hero-title h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1140,14 +1140,16 @@ body {
           justify-content: center;
   font-weight: 700;
   text-transform: uppercase;
+  color: #FFFAFA;
 }
-.site-main .site-hero1 .container h5 {
+.site-main .site-hero1 .container .hero-title h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #FFFAFA;
 }
 
 .conatiner img {
@@ -1163,7 +1165,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.site-main .site-hero2 .container h1 {
+.site-main .site-hero2 .container .hero-title h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1173,7 +1175,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.site-main .site-hero2 .container h5 {
+.site-main .site-hero2 .container .hero-title h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1227,7 +1229,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.site-main .site-hero3 .container h1 {
+.site-main .site-hero3 .container .hero-title h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1236,14 +1238,16 @@ body {
           justify-content: center;
   font-weight: 700;
   text-transform: uppercase;
+  color: #FFFAFA;
 }
-.site-main .site-hero3 .container h5 {
+.site-main .site-hero3 .container .hero-title h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #FFFAFA;
 }
 
 .bg-blue {
@@ -1296,7 +1300,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
-.site-main .site-hero4 .container h1 {
+.site-main .site-hero4 .container .hero-title h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1305,14 +1309,16 @@ body {
           justify-content: center;
   font-weight: 700;
   text-transform: uppercase;
+  color: #FFFAFA;
 }
-.site-main .site-hero4 .container h5 {
+.site-main .site-hero4 .container .hero-title h5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #FFFAFA;
 }
 
 /* DESCRIPTIONS OF CHALLENGES */
