@@ -204,6 +204,23 @@ hr {
   background-color: #414849;
 }
 
+.button-light {
+  display: inline-block;
+  background-color: #2E282A;
+  color: #FFFAFA;
+  text-decoration: none;
+  padding: 15px 32px;
+  border-radius: 5em;
+  margin: 1em 0.5em 1em 0;
+}
+.button-light a {
+  color: #FFFAFA;
+}
+.button-light:hover {
+  color: rgba(255, 250, 250, 0.3490196078);
+  background-color: #414849;
+}
+
 /* RESPONSIVE IMAGES */
 img {
   max-width: 100%;
@@ -946,6 +963,109 @@ body {
   position: relative;
   top: 0;
   left: 0;
+}
+
+/* ABOUT PAGE */
+.dark {
+  background-color: #262730;
+}
+
+.about {
+  margin-bottom: 5em;
+}
+.about .about-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 0.8em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #FFFAFA;
+}
+.about .name h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FFFAFA;
+}
+.about .changing-text {
+  height: 30px;
+}
+.about .changing-text .texts-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  height: 50px;
+  color: #808E72;
+}
+.about .changing-text .texts-container .roles {
+  margin: 0;
+}
+.about .changing-text .texts-container .roles p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: moveUp 8s infinite;
+          animation: moveUp 8s infinite;
+  font-size: 2em;
+}
+@-webkit-keyframes moveUp {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  33% {
+    -webkit-transform: translateY(-150%);
+            transform: translateY(-150%);
+  }
+  66% {
+    -webkit-transform: translateY(-290%);
+            transform: translateY(-290%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes moveUp {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  33% {
+    -webkit-transform: translateY(-150%);
+            transform: translateY(-150%);
+  }
+  66% {
+    -webkit-transform: translateY(-290%);
+            transform: translateY(-290%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.profile {
+  margin: 1em;
+}
+.profile img {
+  width: 100%;
+  height: 500px;
+}
+.profile p {
+  color: #FFFAFA;
+  letter-spacing: 0.1em;
 }
 
 /* FEATURED PROJECTS */
@@ -1833,6 +1953,22 @@ sections {
 .site-header-white .site-nav li .button:hover {
   color: #97a887;
   background-color: #414849;
+}
+.site-header-white .site-nav li .button-light {
+  display: inline-block;
+  background-color: #414849;
+  color: #FFFAFA;
+  text-decoration: none;
+  padding: 15px 32px;
+  border-radius: 5em;
+  margin: 1em 0.5em 1em 0;
+}
+.site-header-white .site-nav li .button-light a {
+  color: #97a887;
+}
+.site-header-white .site-nav li .button-light:hover {
+  color: #626d58;
+  background-color: #FFFAFA;
 }
 .site-header-white .site-nav[data-navstate=open] .menu-button {
   position: fixed;
