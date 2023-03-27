@@ -165,7 +165,6 @@
 
         h1 {
             justify-content: flex-start;
-            color: $color-text-headings;
             margin-bottom: .25em;
             font-size: 4em;
         }
@@ -207,6 +206,7 @@
 
 /* ABOUT PAGE */ 
 .dark {
+    padding-top: 10em;
     background-color: $color-about;
 }
 
@@ -272,19 +272,36 @@
     }
 }
 
-.profile {
-    margin: 1em;
+.about-profile {
 
-    img {
-        width: 100%;
-        height: 500px;
+    .profile {
+    
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
+    
+    .location {
 
+        h6 {
+            color: $color-white;
+            margin-bottom: .5em;
+        }
+
+        p {
+            vertical-align: top;
+        }
+
+    }
+    
     p {
+        display: flex;
         color: $color-white;
         letter-spacing: .1em;
     }
 }
+
 
 /* FEATURED PROJECTS */
 #projects {
@@ -593,26 +610,6 @@
         object-fit: cover;
         width: 100%;
     }
-
-    .hero-name-dark {
-        margin: 0;
-        padding: 0;
-        position: relative;
-        top: -100px;
-        left: 0;
-
-        h1 {
-            display: flex;
-            justify-content: center;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-
-        h5 {
-            display: flex;
-            justify-content: center;
-        }
-    }
 }
 
 .podcast {
@@ -650,37 +647,6 @@
 }
 
 /* DUBAI TOURISM */ 
-.site-main {
-
-    .site-hero3 {
-        width: 100%;
-        height: 100vh;
-        background: url("/img/Dubai_BrujKhalifa.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-
-        .container {
-            .hero-title {
-                h1 {
-                    display: flex;
-                    justify-content: center;
-                    font-weight: 700;
-                    text-transform: uppercase;
-                    color: $color-white;
-                }
-        
-                h5 {
-                    display: flex;
-                    justify-content: center;
-                    color: $color-white;
-                }
-            }
-        }
-    }
-}
-
-
 .bg-blue {
     background-color: $color-blue;
     padding: 5em;
@@ -720,35 +686,6 @@
 }
 
 /* TYPOGRAPHY BOOK */ 
-.site-main {
-
-    .site-hero4 {
-        width: 100%;
-        height: 100vh;
-        background: url("/img/Typography_Hero.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-
-        .container {
-            .hero-title {
-                h1 {
-                    display: flex;
-                    justify-content: center;
-                    font-weight: 700;
-                    text-transform: uppercase;
-                    color: $color-white;
-                }
-        
-                h5 {
-                    display: flex;
-                    justify-content: center;
-                    color: $color-white;
-                }
-            }
-        }
-    }
-}
 
 /* DESCRIPTIONS OF CHALLENGES */ 
 .process {

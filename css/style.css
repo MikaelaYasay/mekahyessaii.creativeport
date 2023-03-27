@@ -924,7 +924,6 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  color: #353b3c;
   margin-bottom: 0.25em;
   font-size: 4em;
 }
@@ -967,6 +966,7 @@ body {
 
 /* ABOUT PAGE */
 .dark {
+  padding-top: 10em;
   background-color: #262730;
 }
 
@@ -1056,14 +1056,21 @@ body {
   }
 }
 
-.profile {
-  margin: 1em;
-}
-.profile img {
+.about-profile .profile img {
   width: 100%;
-  height: 500px;
+  height: 100%;
 }
-.profile p {
+.about-profile .location h6 {
+  color: #FFFAFA;
+  margin-bottom: 0.5em;
+}
+.about-profile .location p {
+  vertical-align: top;
+}
+.about-profile p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #FFFAFA;
   letter-spacing: 0.1em;
 }
@@ -1367,31 +1374,6 @@ body {
      object-fit: cover;
   width: 100%;
 }
-.site-main .hero-name-dark {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  top: -100px;
-  left: 0;
-}
-.site-main .hero-name-dark h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.site-main .hero-name-dark h5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
 
 .podcast {
   margin: 4em 0 3em 0;
@@ -1430,35 +1412,6 @@ body {
 }
 
 /* DUBAI TOURISM */
-.site-main .site-hero3 {
-  width: 100%;
-  height: 100vh;
-  background: url("/img/Dubai_BrujKhalifa.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.site-main .site-hero3 .container .hero-title h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #FFFAFA;
-}
-.site-main .site-hero3 .container .hero-title h5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #FFFAFA;
-}
-
 .bg-blue {
   background-color: #758c90;
   padding: 5em;
@@ -1501,35 +1454,6 @@ body {
 }
 
 /* TYPOGRAPHY BOOK */
-.site-main .site-hero4 {
-  width: 100%;
-  height: 100vh;
-  background: url("/img/Typography_Hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.site-main .site-hero4 .container .hero-title h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #FFFAFA;
-}
-.site-main .site-hero4 .container .hero-title h5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: #FFFAFA;
-}
-
 /* DESCRIPTIONS OF CHALLENGES */
 .process p {
   margin: 0;
