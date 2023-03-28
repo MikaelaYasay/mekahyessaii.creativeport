@@ -331,8 +331,23 @@
 
 .bg-darkgreen {
     padding: 2em;
+    background-color: $color-dark-purple;
 
     .overview {
+        .schem-info {
+            h2 {
+                font-weight: 700;
+                color: $color-white;
+            }
+            .process {
+                p {
+                    margin: 0;
+                    max-width: 1500px;
+                    color: $color-white;
+                }
+            }
+        }
+
         h5 {
             margin: 2.5em 0 .5em 0;
             display: flex;
@@ -404,6 +419,7 @@
     
     .green {
         color: $color-portfolio-bg;
+        margin-bottom: 1em;
     }
 }
 
@@ -426,11 +442,12 @@
                 margin-top: 1em;
 
                 i {
-                    font-family: $font-family-serif;
+                    display: flex;
+                    text-align: center;
+                    font-family: $font-family-quotes;
                     font-weight: 500;
                     font-size: 1.2em;
                     letter-spacing: .1em;
-                    text-transform: uppercase; 
                 }
             }
         }
@@ -442,12 +459,6 @@
             height: 2px $color-text-headings;
             height: 2px;
         }
-    }
-}
-
-.schem-info {
-    h2 {
-        font-weight: 700;
     }
 }
 
@@ -647,53 +658,34 @@
 }
 
 /* DUBAI TOURISM */ 
-.bg-blue {
-    background-color: $color-blue;
-    padding: 5em;
+.inspiration {
+    margin-top: 2em;
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color-portfolio-bg;
+    }
 
-    .overview {
-        height: 100%;
-        .idea {
-            h5 {
-                margin: 1em 0 .5em 0;
-                display: flex;
-                justify-content: center;
-                color: $color-text-body;
-                font-weight: 600;
-            }
+    .current {
+        margin: .5em 0 2em 0;
 
-            .idea-desc {
-                margin-top: 1em;
-
-                i {
-                    font-family: $font-family-serif;
-                    font-weight: 500;
-                    font-size: 1.2em;
-                    letter-spacing: .1em;
-                    text-transform: uppercase; 
-                }
-            }
+        h6 {
+            font-weight: 600;
         }
-        hr {
-            margin: auto;
-            display: flex;
-            justify-content: center;
-            max-width: 20px;
-            height: 2px $color-text-headings;
-            height: 2px;
+    }
+
+    .past {
+        margin: 2em 0 .5em 0;
+
+        h6 {
+            font-weight: 600;
         }
     }
 }
 
 /* TYPOGRAPHY BOOK */ 
-
-/* DESCRIPTIONS OF CHALLENGES */ 
-.process {
-    p {
-        margin: 0;
-        max-width: 1500px;
-    }
-}
 
 /* SEE MORE WORK */ 
 .see-more {
@@ -763,6 +755,7 @@
             font-size: .8em;
             color: $color-text-subheadings;
         }
+
     }
 }
 

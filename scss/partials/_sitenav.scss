@@ -886,6 +886,71 @@
         }
     }
 
+    .bg-darkgreen {
+        padding: 2em;
+        background-color: $color-dark-purple;
+    
+        .overview {
+            .schem-info {
+                h2 {
+                    font-weight: 700;
+                    color: $color-white;
+                }
+                .process {
+                    p {
+                        margin: 0;
+                        max-width: 1500px;
+                        color: $color-white;
+                    }
+                }
+            }
+    
+            h5 {
+                margin: 2.5em 0 .5em 0;
+                display: flex;
+                justify-content: center;
+                color: $color-light-green;
+                font-weight: 600;
+            }
+    
+            hr {
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                max-width: 20px;
+                height: 2px $color-light-green;
+            }
+    
+            h2 {
+                margin: 1em 0 1em 0;
+                display: flex;
+                text-align: center;
+                font-size: 1.8em;
+                color: $color-text-body;
+            }
+    
+            .box-shadow {
+                margin-top: 2em;
+                img {
+                    box-shadow: 0px 0px 20px $color-text-headings;
+                }
+            }
+    
+        }
+    }
+
+    .sec-green {
+        
+        .logo-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+            h1 {
+            }
+        } 
+    }
+
 }
 
 /* FOOTER SITE-NAV */ 

@@ -1102,6 +1102,16 @@ body {
 
 .bg-darkgreen {
   padding: 2em;
+  background-color: #231515;
+}
+.bg-darkgreen .overview .schem-info h2 {
+  font-weight: 700;
+  color: #FFFAFA;
+}
+.bg-darkgreen .overview .schem-info .process p {
+  margin: 0;
+  max-width: 1500px;
+  color: #FFFAFA;
 }
 .bg-darkgreen .overview h5 {
   margin: 2.5em 0 0.5em 0;
@@ -1181,6 +1191,7 @@ body {
 }
 .logo-title .green {
   color: #808E72;
+  margin-bottom: 1em;
 }
 
 .bg-amber {
@@ -1205,11 +1216,14 @@ body {
   margin-top: 1em;
 }
 .bg-amber .overview .idea .idea-desc i {
-  font-family: "elizeth-condensed", serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-family: "neighbor", serif;
   font-weight: 500;
   font-size: 1.2em;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
 }
 .bg-amber .overview hr {
   margin: auto;
@@ -1222,10 +1236,6 @@ body {
   max-width: 20px;
   height: 2px #353b3c;
   height: 2px;
-}
-
-.schem-info h2 {
-  font-weight: 700;
 }
 
 .sec-darkgreen {
@@ -1412,54 +1422,34 @@ body {
 }
 
 /* DUBAI TOURISM */
-.bg-blue {
-  background-color: #758c90;
-  padding: 5em;
+.inspiration {
+  margin-top: 2em;
 }
-.bg-blue .overview {
-  height: 100%;
-}
-.bg-blue .overview .idea h5 {
-  margin: 1em 0 0.5em 0;
+.inspiration h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #2E282A;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #808E72;
+}
+.inspiration .current {
+  margin: 0.5em 0 2em 0;
+}
+.inspiration .current h6 {
   font-weight: 600;
 }
-.bg-blue .overview .idea .idea-desc {
-  margin-top: 1em;
+.inspiration .past {
+  margin: 2em 0 0.5em 0;
 }
-.bg-blue .overview .idea .idea-desc i {
-  font-family: "elizeth-condensed", serif;
-  font-weight: 500;
-  font-size: 1.2em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-.bg-blue .overview hr {
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 20px;
-  height: 2px #353b3c;
-  height: 2px;
+.inspiration .past h6 {
+  font-weight: 600;
 }
 
 /* TYPOGRAPHY BOOK */
-/* DESCRIPTIONS OF CHALLENGES */
-.process p {
-  margin: 0;
-  max-width: 1500px;
-}
-
 /* SEE MORE WORK */
 .see-more {
   background-color: #F8F7F3;
@@ -2562,6 +2552,70 @@ sections {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+
+  .bg-darkgreen {
+    padding: 2em;
+    background-color: #231515;
+  }
+  .bg-darkgreen .overview .schem-info h2 {
+    font-weight: 700;
+    color: #FFFAFA;
+  }
+  .bg-darkgreen .overview .schem-info .process p {
+    margin: 0;
+    max-width: 1500px;
+    color: #FFFAFA;
+  }
+  .bg-darkgreen .overview h5 {
+    margin: 2.5em 0 0.5em 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #97a887;
+    font-weight: 600;
+  }
+  .bg-darkgreen .overview hr {
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 20px;
+    height: 2px #97a887;
+  }
+  .bg-darkgreen .overview h2 {
+    margin: 1em 0 1em 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    font-size: 1.8em;
+    color: #2E282A;
+  }
+  .bg-darkgreen .overview .box-shadow {
+    margin-top: 2em;
+  }
+  .bg-darkgreen .overview .box-shadow img {
+    -webkit-box-shadow: 0px 0px 20px #353b3c;
+            box-shadow: 0px 0px 20px #353b3c;
+  }
+
+  .sec-green .logo-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 /* FOOTER SITE-NAV */
