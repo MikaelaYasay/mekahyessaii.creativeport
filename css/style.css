@@ -1425,6 +1425,9 @@ body {
 .inspiration {
   margin-top: 2em;
 }
+.inspiration img {
+  width: 100%;
+}
 .inspiration h1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1441,12 +1444,14 @@ body {
 }
 .inspiration .current h6 {
   font-weight: 600;
+  text-transform: uppercase;
 }
 .inspiration .past {
   margin: 2em 0 0.5em 0;
 }
 .inspiration .past h6 {
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 /* TYPOGRAPHY BOOK */
