@@ -1352,6 +1352,11 @@ body {
 }
 .ma_mock .row .one-half h2 {
   margin: 0 0 0.5em 0;
+  font-weight: 700;
+}
+.ma_mock .row .one-half h6 {
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 /* SCALED COMPOSITES */
