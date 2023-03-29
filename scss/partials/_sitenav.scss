@@ -13,7 +13,7 @@
         cursor: pointer;
 
         svg {
-            fill: $color-text-headings;
+            fill: $color-portfolio-bg-darker;
             rect {
                 transition: .3s all ease-out;
             }
@@ -146,7 +146,7 @@
         position: absolute;
         top: .75em;
         right: .75em;
-        color: $color-text-headings;
+        color: $color-white;
         margin: 0;
         font-size: 1.5em;
         line-height: 1;
@@ -155,12 +155,13 @@
         cursor: pointer;
 
         svg {
-            fill: $color-text-headings;
+            fill: $color-portfolio-bg-darker;
             rect {
                 transition: .3s all ease-out;
             }
         }
     }
+
 
     ul {
         margin: 0;
@@ -238,6 +239,7 @@
     &[data-navstate="open"] {
         .menu-button {
             position: fixed;
+            color: $color-text-headings;
         }
 
         #menubar-top {
@@ -634,14 +636,14 @@
 
     /* HERO IMAGE */ 
     .banner {
-    .back-img {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 80vh;
-    }
-}
+        .back-img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 80vh;
+        }
+    }   
 
     .site-main {
         background-color: $color-white;
@@ -764,6 +766,44 @@
                 position: absolute;
                 top: 50%;
                 right: 0
+            }
+        }
+    }
+
+    .proj-info {
+        display: flex;
+        justify-content: center;
+    
+        .proj-stats {
+            display: flex;
+            justify-content: center;
+    
+            .sub-title {
+                font-family: $font-family-serif;
+                font-size: .8em;
+                font-weight: 600;
+                letter-spacing: .1em;
+                color: $color-light-green;
+            }
+    
+            hr {
+                width: 100%;
+            }
+        }
+    
+        ul {
+            padding: 0;
+    
+            li {
+                list-style: none;
+            }
+        }
+    
+        .insight {
+    
+            p {
+                font-size: 1.5em;
+                margin: 0;
             }
         }
     }

@@ -844,6 +844,10 @@ body {
           justify-content: center;
 }
 
+.hero-sub {
+  text-transform: uppercase;
+}
+
 .site-main {
   background-color: #FFFAFA;
 }
@@ -1295,7 +1299,6 @@ body {
       -ms-flex-pack: left;
           justify-content: left;
   font-weight: 700;
-  color: #474f50;
 }
 .sec-darkgreen .container .logo_variation {
   margin-bottom: 4em;
@@ -1313,7 +1316,6 @@ body {
 }
 .sec-darkgreen .container .logo_variation .variation h5 {
   font-weight: 700;
-  color: #474f50;
   margin-bottom: 1em;
 }
 
@@ -1323,6 +1325,18 @@ body {
 
 .schematic .row {
   margin: 2em 0 0 0;
+}
+.schematic .row .white-bg img {
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+.schematic .row .white-bg img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .cha_sol .row {
@@ -1342,19 +1356,10 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 1300px;
 }
 .proj-info .proj-stats {
   margin: 1em;
   max-width: 400px;
-}
-.proj-info .proj-stats .sub-title {
-  margin-bottom: 0.5em;
-  font-family: "elizeth-condensed", serif;
-  font-size: 0.8em;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  color: #97a887;
 }
 .proj-info .proj-stats hr {
   margin: 1em 0 1em 0;
@@ -1367,12 +1372,22 @@ body {
   list-style: none;
 }
 .proj-info .insight {
-  margin: 1em;
-  max-width: 900px;
+  margin: 1em 1em 0 2em;
 }
 .proj-info .insight p {
   font-size: 1.5em;
   margin: 0;
+  max-width: 1000px;
+}
+
+.sub-title {
+  margin-bottom: 0.5em;
+  font-family: "elizeth-condensed", serif;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #97a887;
+  text-transform: uppercase;
 }
 
 .collection {
@@ -1736,7 +1751,7 @@ sections {
   cursor: pointer;
 }
 .site-header .site-nav .menu-button svg {
-  fill: #353b3c;
+  fill: #626d58;
 }
 .site-header .site-nav .menu-button svg rect {
   -webkit-transition: 0.3s all ease-out;
@@ -1875,7 +1890,7 @@ sections {
   position: absolute;
   top: 0.75em;
   right: 0.75em;
-  color: #353b3c;
+  color: #FFFAFA;
   margin: 0;
   font-size: 1.5em;
   line-height: 1;
@@ -1885,7 +1900,7 @@ sections {
   cursor: pointer;
 }
 .site-header-white .site-nav .menu-button svg {
-  fill: #353b3c;
+  fill: #626d58;
 }
 .site-header-white .site-nav .menu-button svg rect {
   -webkit-transition: 0.3s all ease-out;
@@ -1970,6 +1985,7 @@ sections {
 }
 .site-header-white .site-nav[data-navstate=open] .menu-button {
   position: fixed;
+  color: #353b3c;
 }
 .site-header-white .site-nav[data-navstate=open] #menubar-top {
   -webkit-transform-origin: center;
@@ -2516,6 +2532,42 @@ sections {
     position: absolute;
     top: 50%;
     right: 0;
+  }
+  .see-more .proj-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .see-more .proj-info .proj-stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .see-more .proj-info .proj-stats .sub-title {
+    font-family: "elizeth-condensed", serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #97a887;
+  }
+  .see-more .proj-info .proj-stats hr {
+    width: 100%;
+  }
+  .see-more .proj-info ul {
+    padding: 0;
+  }
+  .see-more .proj-info ul li {
+    list-style: none;
+  }
+  .see-more .proj-info .insight p {
+    font-size: 1.5em;
+    margin: 0;
   }
 
   /* AMBER AYRE */
