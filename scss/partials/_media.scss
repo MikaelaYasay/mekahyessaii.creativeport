@@ -17,7 +17,7 @@ img {
     left: 0;
     top: 0;
     width: 100%;
-    filter: opacity(10%);
+    filter: opacity(95%);
 }
 
 /* HERO IMAGE */ 
@@ -109,7 +109,7 @@ img {
     }
 
     to {
-        fill: $color-text-headings;
+        fill: $color-white;
     }
 }
 

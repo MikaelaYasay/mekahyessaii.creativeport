@@ -151,7 +151,7 @@
     place-items: center;
 
     video {
-        height: 100vh;
+        height: 95vh;
     }
 
     
@@ -172,6 +172,7 @@
     
         p {
             margin: 1em auto;
+           color: $color-white;
         }
     }
 }
@@ -335,6 +336,7 @@
     background-color: $color-dark-purple;
 
     .overview {
+        padding: 2em;
         .schem-info {
             h2 {
                 font-weight: 700;
@@ -373,12 +375,10 @@
             color: $color-text-body;
         }
 
-        .box-shadow {
-            img {
-                box-shadow: 0px 0px 20px $color-text-headings;
-            }
+        .white-bg {
+            background-color: #ffffff;
+            padding: 1em;
         }
-
     }
 }
 
@@ -420,7 +420,7 @@
     
     .green {
         color: $color-portfolio-bg;
-        margin-bottom: 1em;
+        margin-bottom: .5em;
     }
 }
 
@@ -499,62 +499,111 @@
             img {
                 box-shadow: none;
             }
+        }
 
-            h3 {
+        .brand {
+            margin-bottom: 1em;
+
+            h5 {
+                display: flex;
+                justify-content: left;
                 font-weight: 700;
+                color: $color-text-subheadings
+
             }
         }
     }
 
-    .variation {
-        display: inline-block;
-        justify-content: center;
-        width: 100%;
+    .container {
 
-        img {
-            margin-top: 1em;
-            max-width: 800px;
-
-        }
-
-        h3 {
-            font-weight: 700;
+        .logo_variation {
+            margin-bottom: 4em;
+    
+            .variation {
+                display: inline-block;
+                justify-content: center;
+                width: 100%;
+        
+                img {
+                    margin-top: 1em;
+                    max-width: 800px;
+        
+                }
+        
+                h5 {
+                    font-weight: 700;
+                    color: $color-text-subheadings;
+                    margin-bottom: 1em;
+                }
+            }
         }
     }
+}
 
+.padding-large {
+    padding: 8em 0;
+}
+
+.schematic {
+    .row {
+        margin: 2em 0 0 0;
+    }
+}
+
+.cha_sol {
+
+    .row {
+        display: inline;
+
+        .one-half {
+            padding: 0;
+            margin: 2em 0 2em 0;
+            width: 100%;
+        }
+    }
 }
 
 .proj-info {
-    margin-top: 2em;
+    margin: 4em 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
 
-    h5 {
-        color: $color-light-green;
-        font-weight: 600;
+    .proj-stats {
+        margin: 1em;
+        max-width: 400px;
+
+        .sub-title {
+            margin-bottom: .5em;
+            font-family: $font-family-serif;
+            font-size: .8em;
+            font-weight: 600;
+            letter-spacing: .1em;
+            color: $color-light-green;
+        }
+
+        hr {
+            margin: 1em 0 1em 0;
+            width: 100%;
+        }
     }
 
-    li {
-        list-style: none;
+    ul {
+        padding: 0;
+
+        li {
+            list-style: none;
+        }
     }
 
-    .sub-title {
-        margin-bottom: .5em;
-        font-family: $font-family-serif;
-        font-weight: 600;
-        font-size: .6em;
-        text-transform: uppercase;
-        color: $color-light-green;
-        letter-spacing: .2em;
-    }
+    .insight {
+        margin: 1em;
+        max-width: 900px;
 
-    .divider {
-       font-weight: 500;
-       font-size: 1.2em;
-    }
-
-    hr {
-        margin: 1em 0 1em 0;
-        justify-content: flex-end;
-        width: 100%;
+        p {
+            font-size: 1.5em;
+            margin: 0;
+        }
     }
 }
 
@@ -584,15 +633,17 @@
     margin-top: 2em;
     .row {
         padding: .5em 0 .5em 0;
-        .one-half {
 
+        .one-half {
             h2 {
                 margin: 0 0 .5em 0;
                 font-weight: 700;
             }
+
             h6 {
                 font-weight: 700;
-                text-transform: uppercase;
+                color: $color-text-subheadings;
+                margin-bottom: 1em;
             }
 
         }
@@ -810,26 +861,51 @@
     background-color: $color-portfolio-bg;
     display: flex;
     padding: 1em;
-    justify-content: center;
+    justify-content: space-between;
 
     .site-nav {
-        display: inline-block;
-    }
+        display: flex;
+        height: 20px;
 
-    a {
-        color: $color-white;
-        text-decoration: none;
-        letter-spacing: .1em;
+        .social-links {
+            margin: 1.2em 0;
+            height: 20px;
 
-        &:hover {
-            color: $color-light-green;
+            a {
+                display: flex;
+                justify-content: center;
+                color: $color-white;
+                text-decoration: none;
+                letter-spacing: .1em;
+                padding: 0 .5em;
+                height: 20px;
+        
+                &:hover {
+                    color: $color-light-green;
+                }
+            }
         }
     }
-
-    ul {
+        
+    .CTA {
         display: flex;
         justify-content: center;
-    }
+
+        li {
+            list-style: none;
+
+            a {
+                margin: 0 1em 0 1em;
+                text-decoration: none;
+                color: $color-white;
+                letter-spacing: .1em;
+                font-size: .69em;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+
+        }
+     }
 }
 
 section {

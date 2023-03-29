@@ -45,7 +45,7 @@
 
 .inline-photo-above {
     opacity: 0;
-    transform: translate(0, -20px);
+    transform: translate(0, 20px);
     transition: transform 2s,
                 opacity .3s .25s ease-out;
     width: 100%;
@@ -54,6 +54,21 @@
 }
 
 .inline-photo-above.is-visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.inline-photo-below {
+    opacity: 0;
+    transform: translate(0, -20px);
+    transition: transform 2s,
+                opacity .3s .25s ease-out;
+    width: 100%;
+    will-change: transform, opacity;
+    transition: all 1s ease-out;
+}
+
+.inline-photo-below.is-visible {
     opacity: 1;
     transform: translate(0, 0);
 }
@@ -139,6 +154,7 @@
     transition: transform .3 ease-in-out;
     opacity: 0;
 
+
     .text {
         height: 1em;
         opacity: 1;
@@ -154,6 +170,7 @@
         transition-delay: 0s;
         transition-duration: 0.4s;
         color: $color-white;
+        letter-spacing: .05em;
     }
 
     &:hover {
