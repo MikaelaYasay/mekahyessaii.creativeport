@@ -2401,7 +2401,7 @@ sections {
     left: 0;
     top: 0;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
   }
 
   .site-main {
@@ -2458,6 +2458,31 @@ sections {
         -ms-flex-pack: center;
             justify-content: center;
     font-size: 0.8em;
+  }
+
+  .logo-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logo-title h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.3em;
+    text-transform: uppercase;
+  }
+  .logo-title .green {
+    color: #808E72;
+    margin-bottom: 0.5em;
   }
 
   /* TRILOGY PODCASTS */
@@ -2533,48 +2558,18 @@ sections {
     top: 50%;
     right: 0;
   }
-  .see-more .proj-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .see-more .proj-info .proj-stats {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .see-more .proj-info .proj-stats .sub-title {
-    font-family: "elizeth-condensed", serif;
-    font-size: 0.8em;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    color: #97a887;
-  }
-  .see-more .proj-info .proj-stats hr {
-    width: 100%;
-  }
-  .see-more .proj-info ul {
-    padding: 0;
-  }
-  .see-more .proj-info ul li {
-    list-style: none;
-  }
-  .see-more .proj-info .insight p {
-    font-size: 1.5em;
-    margin: 0;
-  }
 
   /* AMBER AYRE */
   .site-header {
     z-index: 1;
   }
 
+  .proj-info {
+    display: inline;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .proj-info h5 {
     color: #97a887;
     font-weight: 600;
@@ -2596,6 +2591,13 @@ sections {
     font-size: 0.6em;
     text-transform: uppercase;
     color: #97a887;
+  }
+  .proj-info .proj-stats {
+    margin: 4em 1em 2em 1em;
+    width: 50%;
+  }
+  .proj-info .insight {
+    margin: 2em 1em 4em 1em;
   }
 
   .grid-wrap {
