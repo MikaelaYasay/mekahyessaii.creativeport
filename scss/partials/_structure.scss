@@ -176,7 +176,8 @@
     
         p {
             margin: 1em auto;
-           color: $color-white;
+            color: $color-white;
+            font-size: 2em;
         }
     }
 }
@@ -661,6 +662,16 @@
                 margin-bottom: 1em;
             }
 
+            img {
+                transition: ease-in-out .2s;
+
+                &:hover {
+                    transform: scale(1.2);
+                    transition: ease-in-out .2s;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                }
+            }
+
         }
     }
 }
@@ -672,6 +683,15 @@
         height: 50vh;
     }
 
+}
+
+.CS {
+    .scaled_logo {
+        video {
+            width: 100%;
+            height: 100%;
+        }
+    }
 }
 
 /* TRILOGY BOOKS */ 
@@ -696,8 +716,12 @@
 }
 
 .podcast {
-    margin: 4em 0 3em 0;
+    margin: 0;
     background-color: $color-portfolio-bg-darker;
+}
+
+.podcast_reference {
+    padding: 3em;
 }
 
 .logo-title1 {
@@ -727,6 +751,22 @@
             color: $color-white;
         }
     }
+}
+
+.trilogy {
+    margin-top: 2em;
+
+    h5 {
+        color: $color-pink;
+    }
+
+    p {
+        color: $color-white;
+    }
+}
+
+.episodes {
+    margin: 1em 0 1em 0;
 }
 
 /* DUBAI TOURISM */ 
@@ -769,6 +809,7 @@
 /* SEE MORE WORK */ 
 .see-more {
     background-color: $color-white-bg;
+    padding: 4em;
 
     .more-work {
 
@@ -806,8 +847,6 @@
                 right: -50%;
             }
         }
-
-       
     }
 
     h1 {
@@ -828,6 +867,7 @@
         h4 {
             margin: .5em 0 .2em 0;
             font-weight: 700;
+            text-transform: uppercase;
         }
 
         p {

@@ -398,6 +398,7 @@ img {
     font-size: 1em;
   }
   .hero .container p {
+    font-size: 3em;
     margin: 1em auto;
   }
 }
@@ -934,6 +935,7 @@ body {
 .hero .container p {
   margin: 1em auto;
   color: #FFFAFA;
+  font-size: 2em;
 }
 
 /* SITE MAIN */
@@ -1420,10 +1422,27 @@ body {
   color: #474f50;
   margin-bottom: 1em;
 }
+.ma_mock .row .one-half img {
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+}
+.ma_mock .row .one-half img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: ease-in-out 0.2s;
+  transition: ease-in-out 0.2s;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 /* SCALED COMPOSITES */
 .conatiner img {
   height: 50vh;
+}
+
+.CS .scaled_logo video {
+  width: 100%;
+  height: 100%;
 }
 
 /* TRILOGY BOOKS */
@@ -1453,8 +1472,12 @@ body {
 }
 
 .podcast {
-  margin: 4em 0 3em 0;
+  margin: 0;
   background-color: #626d58;
+}
+
+.podcast_reference {
+  padding: 3em;
 }
 
 .logo-title1 .title {
@@ -1486,6 +1509,20 @@ body {
   font-weight: 500;
   text-transform: uppercase;
   color: #FFFAFA;
+}
+
+.trilogy {
+  margin-top: 2em;
+}
+.trilogy h5 {
+  color: #FED5CD;
+}
+.trilogy p {
+  color: #FFFAFA;
+}
+
+.episodes {
+  margin: 1em 0 1em 0;
 }
 
 /* DUBAI TOURISM */
@@ -1525,6 +1562,7 @@ body {
 /* SEE MORE WORK */
 .see-more {
   background-color: #F8F7F3;
+  padding: 4em;
 }
 .see-more .more-work h2 {
   font-size: 0.8em;
@@ -1579,6 +1617,7 @@ body {
 .see-more li h4 {
   margin: 0.5em 0 0.2em 0;
   font-weight: 700;
+  text-transform: uppercase;
 }
 .see-more li p {
   font-size: 0.8em;
@@ -2095,7 +2134,7 @@ sections {
     font-size: 4em;
   }
   .hero .container p {
-    font-size: 1.4em;
+    font-size: 2em;
     margin: 1em auto;
   }
   .hero .back-video {
@@ -2166,6 +2205,23 @@ sections {
         -ms-flex-pack: center;
             justify-content: center;
     font-size: 1em;
+    color: #FFFAFA;
+  }
+
+  .logo-title1 .title {
+    margin-top: 1em;
+  }
+  .logo-title1 h1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
     color: #FFFAFA;
   }
 
@@ -2363,6 +2419,7 @@ sections {
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;
+    height: 90vh;
   }
   .site-main .hero-name {
     margin: 0;
@@ -2487,7 +2544,7 @@ sections {
 
   /* TRILOGY PODCASTS */
   .podcast {
-    margin: 4em 0 3em 0;
+    margin: 0;
     background-color: #626d58;
   }
 
@@ -2991,8 +3048,8 @@ sections {
   transition: -webkit-transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .thumb-overlay {
