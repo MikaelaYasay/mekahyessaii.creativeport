@@ -142,6 +142,26 @@
     }
 }
 
+.gallery-thumbs {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0px 0px 10px 1px $color-light-green;
+
+    img {
+        display: block;
+        width: 100%;
+        transition: transform .25s ease-in-out;
+    }
+
+    &:hover img {
+        transition: transform .25s ease-in-out;
+        transform: scale(1.1);
+    }
+}
+
 .thumb-overlay {
     position: absolute;
     top: 0;

@@ -717,6 +717,100 @@ body {
      object-fit: cover;
 }
 
+.grid-wrap2 {
+  position: relative;
+  margin: 0;
+  padding: 10px;
+}
+.grid-wrap2 ul {
+  margin: 0 auto;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+  grid-auto-flow: dense;
+  grid-gap: 2px;
+}
+.grid-wrap2 ul li {
+  position: relative;
+  list-style: none;
+}
+.grid-wrap2 ul li:nth-child(1) {
+  -ms-grid-row-span: 2;
+  grid-row: span 2;
+  -ms-grid-column-span: 6;
+  grid-column: span 6;
+}
+.grid-wrap2 ul li:nth-child(2) {
+  -ms-grid-row-span: 2;
+  grid-row: span 2;
+  -ms-grid-column-span: 6;
+  grid-column: span 6;
+}
+.grid-wrap2 ul li:nth-child(3) {
+  -ms-grid-row-span: 1;
+  grid-row: span 1;
+  -ms-grid-column-span: 4;
+  grid-column: span 4;
+}
+.grid-wrap2 ul li:nth-child(4) {
+  -ms-grid-row-span: 1;
+  grid-row: span 1;
+  -ms-grid-column-span: 8;
+  grid-column: span 8;
+}
+.grid-wrap2 ul li:nth-child(5) {
+  -ms-grid-row-span: 2;
+  grid-row: span 2;
+  -ms-grid-column-span: 6;
+  grid-column: span 6;
+}
+.grid-wrap2 ul li:nth-child(6) {
+  -ms-grid-row-span: 3;
+  grid-row: span 3;
+  -ms-grid-column-span: 4;
+  grid-column: span 4;
+}
+.grid-wrap2 ul li:nth-child(7) {
+  -ms-grid-row-span: 2;
+  grid-row: span 2;
+  -ms-grid-column-span: 16;
+  grid-column: span 16;
+}
+.grid-wrap2 ul li:nth-child(8) {
+  -ms-grid-row-span: 2;
+  grid-row: span 2;
+  -ms-grid-column-span: 8;
+  grid-column: span 8;
+}
+.grid-wrap2 ul img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.grid-wrap2 ul .logotype {
+  border: 1px solid #97a887;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.grid-wrap2 ul .logotype img svg {
+  width: 50%;
+  height: 50%;
+}
+.grid-wrap2 ul .logomark {
+  border: 1px solid #97a887;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .demo .row {
   margin-bottom: 0;
 }
@@ -1558,7 +1652,38 @@ body {
   text-transform: uppercase;
 }
 
-/* TYPOGRAPHY BOOK */
+/* GALLERY */
+.conatiner-m {
+  padding: 0;
+}
+
+.gallery {
+  padding: 0;
+}
+.gallery .featured {
+  padding: 0 1em 0 1em;
+}
+.gallery .featured h1 {
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+.gallery .row {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.gallery ul {
+  padding: 0;
+  list-style: none;
+}
+.gallery li {
+  margin: 1em;
+}
+
 /* SEE MORE WORK */
 .see-more {
   background-color: #F8F7F3;
@@ -1752,6 +1877,16 @@ sections {
   display: -ms-grid;
   display: grid;
   min-height: 20vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+sectionf {
+  padding: 4em 0;
+  min-height: 20vh;
+  display: -ms-grid;
+  display: grid;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -3044,6 +3179,32 @@ sections {
   transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
 }
 .project-thumbs:hover img {
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.gallery-thumbs {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 10px 1px #97a887;
+          box-shadow: 0px 0px 10px 1px #97a887;
+}
+.gallery-thumbs img {
+  display: block;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  transition: -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+.gallery-thumbs:hover img {
   -webkit-transition: -webkit-transform 0.25s ease-in-out;
   transition: -webkit-transform 0.25s ease-in-out;
   transition: transform 0.25s ease-in-out;
