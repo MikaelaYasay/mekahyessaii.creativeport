@@ -815,9 +815,15 @@
 
     .featured {
         padding: 0 1em 0 1em;
+        height: 30vh;
 
         h1 {
             text-transform: uppercase;
+            margin-bottom: .5em;
+            font-weight: 600;
+        }
+
+        h5 {
             margin-bottom: .5em;
         }
     }
@@ -826,6 +832,10 @@
         margin-top: 2em;
         display: flex;
         justify-content: center;
+
+        .one-whole {
+            padding: 0 .5em 0 .5em;
+        }
     }
 
     ul {

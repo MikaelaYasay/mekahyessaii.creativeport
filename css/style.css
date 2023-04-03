@@ -1662,9 +1662,14 @@ body {
 }
 .gallery .featured {
   padding: 0 1em 0 1em;
+  height: 30vh;
 }
 .gallery .featured h1 {
   text-transform: uppercase;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+.gallery .featured h5 {
   margin-bottom: 0.5em;
 }
 .gallery .row {
@@ -1675,6 +1680,9 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+.gallery .row .one-whole {
+  padding: 0 0.5em 0 0.5em;
 }
 .gallery ul {
   padding: 0;
