@@ -303,6 +303,11 @@
     }
 }
 
+/* LARGE SCREENS */ 
+@media (max-width: $breakpoint-large) {
+
+}
+
 /* MEDIUM SCREENS */
 @media (max-width: $breakpoint-medium) { 
     section {
@@ -557,7 +562,6 @@
             }
         }
     }
-
 }
 
 
@@ -1000,6 +1004,12 @@
         } 
     }
 
+    #left {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        max-width: 475px;
+    }
 }
 
 /* FOOTER SITE-NAV */ 
