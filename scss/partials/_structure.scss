@@ -805,7 +805,7 @@
 }
 
 /* GALLERY */ 
-.galery {
+.gallery {
     position: fixed;
     width: 400px;
     height: 50%;
@@ -849,7 +849,7 @@
 
 #past,
 #internship {
-    margin-right: 3em;
+    margin: 0 0 3em 3em;
     display: flex;
     justify-content: center;
     max-width: 1000px;

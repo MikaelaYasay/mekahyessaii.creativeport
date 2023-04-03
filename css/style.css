@@ -1653,13 +1653,13 @@ body {
 }
 
 /* GALLERY */
-.galery {
+.gallery {
   position: fixed;
   width: 400px;
   height: 50%;
   background-color: transparent;
 }
-.galery h1 {
+.gallery h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1669,17 +1669,17 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.galery .g_tabs {
+.gallery .g_tabs {
   display: inline;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0;
 }
-.galery .g_tabs li {
+.gallery .g_tabs li {
   list-style: none;
 }
-.galery .g_tabs li a {
+.gallery .g_tabs li a {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 600;
@@ -1705,7 +1705,7 @@ body {
 
 #past,
 #internship {
-  margin-right: 3em;
+  margin: 0 0 3em 3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2282,6 +2282,39 @@ sectionf {
 }
 
 /* LARGE SCREENS */
+@media (max-width: 1250px) {
+  #past,
+#internship {
+    margin-right: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 900px;
+  }
+  #past .container .row,
+#internship .container .row {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #past .container ul,
+#internship .container ul {
+    padding: 0;
+    list-style: none;
+  }
+  #past .container li,
+#internship .container li {
+    margin: 1em;
+    display: inline-block;
+  }
+}
 /* MEDIUM SCREENS */
 @media (max-width: 1050px) {
   section {
@@ -3005,14 +3038,10 @@ sectionf {
         -ms-flex-align: center;
             align-items: center;
   }
+
   #left {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    z-index: 1;
+    position: static;
     max-width: 475px;
   }
 }
