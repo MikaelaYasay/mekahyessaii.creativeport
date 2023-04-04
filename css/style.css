@@ -372,34 +372,18 @@ img {
 @media (max-width: 1250px) {
   /* HERO SECTION */
   .hero {
-    background-image: url(/img/Hero_Video.mp4);
     color: #474f50;
     text-align: center;
     padding: 6em 0;
     min-height: 100vh;
-    display: -ms-grid;
-    display: grid;
-    place-items: center;
-  }
-  .hero .container {
-    display: inline-block;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
   }
   .hero .container h1 {
     padding-left: 0.5em;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
     color: #353b3c;
-    margin-bottom: 0.25em;
     font-size: 1em;
   }
   .hero .container p {
     font-size: 3em;
-    margin: 1em auto;
   }
 }
 /* RESET BODY */
@@ -1002,19 +986,26 @@ body {
   text-align: center;
   padding: 6em 0;
   min-height: 80vh;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
 }
 .hero video {
   height: 95vh;
 }
 .hero .container {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
 }
 .hero .container .hero-name {
   max-width: 1000px;
@@ -1028,6 +1019,14 @@ body {
 }
 .hero .container p {
   margin: 1em auto;
+  color: #FFFAFA;
+  font-size: 2em;
+}
+.hero .container h5 {
+  margin-top: 1em;
+}
+.hero .container .svg_p {
+  margin: 0;
   color: #FFFAFA;
   font-size: 2em;
 }
@@ -1653,8 +1652,62 @@ body {
 }
 
 /* GALLERY */
+.g_header {
+  display: inline-block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #808E72;
+  color: #FFFAFA;
+  width: 100%;
+  height: 50vh;
+}
+.g_header h1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  line-height: 0.8;
+  color: #FFFAFA;
+  padding-top: 3em;
+  margin: 0;
+}
+.g_header span {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 0.5em;
+  color: #FFFAFA;
+}
+
+.g_tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin: 1em;
+}
+.g_tabs li {
+  list-style: none;
+}
+.g_tabs li a {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-size: 0.7em;
+}
+
 .gallery {
-  position: fixed;
   width: 400px;
   height: 50%;
   background-color: transparent;
@@ -1669,28 +1722,18 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.gallery .g_tabs {
-  display: inline;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 0;
-}
-.gallery .g_tabs li {
-  list-style: none;
-}
-.gallery .g_tabs li a {
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: 600;
-  font-size: 0.7em;
-}
 
 .g_title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 5em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.g_title h2 {
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .past_work,
@@ -1698,21 +1741,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #past,
 #internship {
-  margin: 0 0 3em 3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 1000px;
 }
 #past .container .row,
 #internship .container .row {
@@ -1734,6 +1775,9 @@ body {
   margin: 1em;
 }
 
+.internship_work {
+  margin-top: 5em;
+}
 .fixed {
   z-index: 1;
   position: fixed;
@@ -1906,11 +1950,6 @@ body {
 section {
   padding: 4em 0;
   min-height: 100vh;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 sectionproj {
@@ -2328,17 +2367,9 @@ sectionf {
     text-align: center;
     padding: 6em 0;
     min-height: 90vh;
-    display: -ms-grid;
-    display: grid;
-    place-items: center;
   }
   .hero .container {
     position: absolute;
-    display: inline-block;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
   }
   .hero .container .hero-name {
     max-width: 700px;
@@ -2358,12 +2389,9 @@ sectionf {
         -ms-flex-pack: start;
             justify-content: flex-start;
     color: #353b3c;
-    margin-bottom: 0.25em;
-    font-size: 4em;
   }
   .hero .container p {
     font-size: 2em;
-    margin: 1em auto;
   }
   .hero .back-video {
     position: absolute;
@@ -2592,17 +2620,6 @@ sectionf {
     text-align: center;
     padding: 6em 0;
     min-height: 90vh;
-    display: -ms-grid;
-    display: grid;
-    place-items: center;
-  }
-  .hero .container {
-    position: absolute;
-    display: inline-block;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
   }
   .hero .container .hero-name {
     max-width: 400px;
@@ -2612,16 +2629,10 @@ sectionf {
     max-width: 325px;
   }
   .hero .container h1 {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
     color: #353b3c;
-    margin-bottom: 0.25em;
-    font-size: 5em;
   }
   .hero .container p {
     font-size: 1em;
-    margin: 1em auto;
   }
 
   .site-main {
@@ -3292,8 +3303,8 @@ sectionf {
   position: relative;
   overflow: hidden;
   width: 100%;
-  -webkit-box-shadow: 0px 0px 10px 1px #97a887;
-          box-shadow: 0px 0px 10px 1px #97a887;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(53, 59, 60, 0.2823529412);
+          box-shadow: 0px 0px 10px 1px rgba(53, 59, 60, 0.2823529412);
 }
 .gallery-thumbs img {
   display: block;

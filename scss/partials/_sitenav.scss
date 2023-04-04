@@ -347,14 +347,14 @@
         text-align: center;
         padding: 6em 0;
         min-height: 90vh;
-        display: grid;
-        place-items: center;
+        // display: grid;
+        // place-items: center;
 
         .container {
             position: absolute;
-            display: inline-block;
-            align-items: center;
-            text-align: center;
+            // display: inline-block;
+            // align-items: center;
+            // text-align: center;
 
             .hero-name {
                 max-width: 700px;
@@ -370,13 +370,13 @@
             h1 {
                 justify-content: flex-start;
                 color: $color-text-headings;
-                margin-bottom: .25em;
-                font-size: 4em;
+                // margin-bottom: .25em;
+                // font-size: 4em;
             }
         
             p {
                 font-size: 2em;
-                margin: 1em auto;
+                // margin: 1em auto;
             }
         }
 
@@ -604,14 +604,14 @@
         text-align: center;
         padding: 6em 0;
         min-height: 90vh;
-        display: grid;
-        place-items: center;
+        // display: grid;
+        // place-items: center;
 
         .container {
-            position: absolute;
-            display: inline-block;
-            align-items: center;
-            text-align: center;
+            // position: absolute;
+            // display: inline-block;
+            // align-items: center;
+            // text-align: center;
 
             .hero-name {
                 max-width: 400px;
@@ -623,15 +623,15 @@
             }
 
             h1 {
-                justify-content: flex-start;
+                // justify-content: flex-start;
                 color: $color-text-headings;
-                margin-bottom: .25em;
-                font-size: 5em;
+                // margin-bottom: .25em;
+                // font-size: 5em;
             }
         
             p {
                 font-size: 1em;
-                margin: 1em auto;
+                // margin: 1em auto;
             }
         }
     }
