@@ -1056,8 +1056,8 @@ body {
   margin: 0;
   color: #FFFAFA;
   font-size: 2em;
-  -webkit-transition-delay: 3.8s;
-          transition-delay: 3.8s;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
 }
 .site-main .banner {
   width: 100%;
