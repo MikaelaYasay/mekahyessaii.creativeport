@@ -114,7 +114,7 @@ img {
 }
 
 /* MEDIA QUERIES */ 
-@media (min-width: $breakpoint-medium) {
+@media (min-width: $breakpoint-small) {
     // PROJECT INFORMATION
     .proj-info {
         display: flex !important; 
@@ -141,6 +141,21 @@ img {
         .row {
             .one-third {
                 margin: 1em;
+            }
+        }
+    }
+
+    // GALLERY 
+    .MFH {
+        .mfh_tshirt {
+            img {
+                transition: ease-in-out .2s;
+
+                &:hover {
+                    transform: scale(2.5);
+                    transition: ease-in-out .2s;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                }
             }
         }
     }

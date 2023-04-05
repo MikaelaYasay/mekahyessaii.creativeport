@@ -369,7 +369,7 @@ img {
   }
 }
 /* MEDIA QUERIES */
-@media (min-width: 1050px) {
+@media (min-width: 768px) {
   .proj-info {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -391,6 +391,19 @@ img {
 
   .see-more .row .one-third {
     margin: 1em;
+  }
+
+  .MFH .mfh_tshirt img {
+    -webkit-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+  }
+  .MFH .mfh_tshirt img:hover {
+    -webkit-transform: scale(2.5);
+            transform: scale(2.5);
+    -webkit-transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.2s;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 }
 /* RESET BODY */
@@ -1756,8 +1769,10 @@ body {
           justify-content: center;
 }
 .g_title h2 {
+  font-size: 1.5em;
   font-weight: 600;
   text-transform: uppercase;
+  color: #FFFAFA;
 }
 
 .past_work,
@@ -1800,8 +1815,22 @@ body {
 }
 
 .internship_work {
-  margin-top: 5em;
+  padding: 4em 0;
 }
+.internship_work .MFH,
+.internship_work .HLR,
+.internship_work .TUM,
+.internship_work .MUW {
+  margin: 4em 0;
+}
+.internship_work .MFH img,
+.internship_work .HLR img,
+.internship_work .TUM img,
+.internship_work .MUW img {
+  -webkit-box-shadow: 0 0 10px 1px #414849;
+          box-shadow: 0 0 10px 1px #414849;
+}
+
 .fixed {
   z-index: 1;
   position: fixed;
