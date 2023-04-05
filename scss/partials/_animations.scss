@@ -58,6 +58,22 @@
     transform: translate(0, 0);
 }
 
+.inline-photo-above-p {
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: transform 2s,
+                opacity .3s .25s ease-out;
+    width: 100%;
+    will-change: transform, opacity;
+    transition: all 1s ease-out;
+}
+
+.inline-photo-above-p.is-visible {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition-delay: 3.8s;
+}
+
 .inline-photo-below {
     opacity: 0;
     transform: translate(0, -20px);
@@ -107,7 +123,7 @@
         #logo:nth-child(10) {transition-delay:2.2s;}
         #logo:nth-child(11) {transition-delay: 2.4s;}
         #logo:nth-child(12) {transition-delay: 2.6s;}
-        p:nth-child(2) {transition-delay: 3.8s;}
+        .svg_p:nth-child(1) {transition-delay: 3.8s;}
     }
 
 
