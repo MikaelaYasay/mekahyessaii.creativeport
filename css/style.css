@@ -1261,6 +1261,9 @@ body {
   }
 }
 
+.about-profile .profile {
+  width: 100%;
+}
 .about-profile .profile img {
   width: 100%;
   height: 100%;
