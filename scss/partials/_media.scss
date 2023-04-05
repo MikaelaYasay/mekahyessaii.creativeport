@@ -130,6 +130,21 @@ img {
                 margin-top: .5em !important;
                 font-size: 1.5em !important;
             }
+
+            .inline-photo-above-p {
+                opacity: 0;
+                transform: translate(0, 20px);
+                transition: transform 2s,
+                            opacity .3s .25s ease-out;
+                width: 100%;
+                will-change: transform, opacity;
+                transition: all 1s ease-out;
+            }
+        
+            .inline-photo-above-p.is-visible {
+                opacity: 1;
+                transform: translate(0, 0);
+            }
         }
     }
 

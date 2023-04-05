@@ -386,6 +386,24 @@ img {
     margin-top: 0.5em !important;
     font-size: 1.5em !important;
   }
+  .site-main .home-hero-name .inline-photo-above-p {
+    opacity: 0;
+    -webkit-transform: translate(0, 20px);
+            transform: translate(0, 20px);
+    -webkit-transition: opacity 0.3s 0.25s ease-out, -webkit-transform 2s;
+    transition: opacity 0.3s 0.25s ease-out, -webkit-transform 2s;
+    transition: transform 2s, opacity 0.3s 0.25s ease-out;
+    transition: transform 2s, opacity 0.3s 0.25s ease-out, -webkit-transform 2s;
+    width: 100%;
+    will-change: transform, opacity;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+  }
+  .site-main .home-hero-name .inline-photo-above-p.is-visible {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
 
   .proj-info {
     display: -webkit-box !important;
