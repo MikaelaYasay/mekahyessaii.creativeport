@@ -911,7 +911,6 @@
         font-size: 1.5em;
         font-weight: 600;
         text-transform: uppercase;
-        color: $color-white;
     }
 
 }
@@ -947,7 +946,8 @@
 }
 
 
-.internship_work {
+.internship_work,
+.past_work {
     padding: 4em 0;
 
     .MFH,

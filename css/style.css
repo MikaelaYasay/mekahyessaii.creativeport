@@ -398,8 +398,8 @@ img {
     transition: ease-in-out 0.2s;
   }
   .MFH .mfh_tshirt img:hover {
-    -webkit-transform: scale(2.5);
-            transform: scale(2.5);
+    -webkit-transform: scale(2);
+            transform: scale(2);
     -webkit-transition: ease-in-out 0.2s;
     transition: ease-in-out 0.2s;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -1772,7 +1772,6 @@ body {
   font-size: 1.5em;
   font-weight: 600;
   text-transform: uppercase;
-  color: #FFFAFA;
 }
 
 .past_work,
@@ -1814,19 +1813,28 @@ body {
   margin: 1em;
 }
 
-.internship_work {
+.internship_work,
+.past_work {
   padding: 4em 0;
 }
 .internship_work .MFH,
 .internship_work .HLR,
 .internship_work .TUM,
-.internship_work .MUW {
+.internship_work .MUW,
+.past_work .MFH,
+.past_work .HLR,
+.past_work .TUM,
+.past_work .MUW {
   margin: 4em 0;
 }
 .internship_work .MFH img,
 .internship_work .HLR img,
 .internship_work .TUM img,
-.internship_work .MUW img {
+.internship_work .MUW img,
+.past_work .MFH img,
+.past_work .HLR img,
+.past_work .TUM img,
+.past_work .MUW img {
   -webkit-box-shadow: 0 0 10px 1px #414849;
           box-shadow: 0 0 10px 1px #414849;
 }
