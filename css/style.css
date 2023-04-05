@@ -1152,8 +1152,10 @@ body {
   color: #FFFAFA;
 }
 .about .name h1 {
+  padding: 0;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 2.3em;
   color: #FFFAFA;
 }
 .about .changing-text {
