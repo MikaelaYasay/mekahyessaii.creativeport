@@ -60,6 +60,117 @@
 /* HERO STRUCTURE */ 
 .site-main {
     background-color: $color-white;
+    
+    .hero {
+        color: $color-text-subheadings;
+        text-align: center;
+        padding: 6em 0;
+        max-height: 90vh;
+    
+        video {
+            height: 90vh;
+        }
+    
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 90vh;
+            width: 100%;
+
+            .hero-name {
+                margin: 0;
+                padding: 0;
+                position: relative;
+                top: 0;
+                left: 0;
+
+                h1 {
+                    display: flex;
+                    justify-content: center;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: $color-white;
+                }
+
+                h5 {
+                    display: flex;
+                    justify-content: center;
+                    color: $color-white;
+                }
+            }
+
+            .home-hero-name {
+                margin: 0;
+                padding: 0;
+                position: relative;
+                top: -100px;
+                left: 0;
+
+                h1 {
+                    display: flex;
+                    justify-content: center;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: $color-white;
+                }
+
+                h5 {
+                    display: flex;
+                    justify-content: center;
+                    color: $color-white;
+                }
+            }
+
+            .hero-name-dark {
+                margin: 0;
+                padding: 0;
+                position: relative;
+                top: 0;
+                left: 0;
+
+                h1 {
+                    display: flex;
+                    justify-content: center;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+
+                h5 {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+    
+            h1 {
+                justify-content: flex-start;
+                margin-bottom: .25em;
+                font-size: 3em;
+                padding: 0;
+            }
+        
+            p {
+                margin: 1em auto;
+                color: $color-white;
+                font-size: 2em;
+            }
+    
+            h5 {
+                margin-top: 1em;
+            }
+        
+            .svg_p {
+                margin: 0;
+                color: $color-white;
+                font-size: 2em;
+            }
+        }
+    }
 
     .banner {
         width: 100%;
@@ -67,33 +178,22 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 70vh;
 
-        img {
+        video {
             position: absolute;
             top: 0;
             left: 0;
             object-fit: cover;
             width: 100%;
         }
-    }
 
-    .hero-name-dark {
-        margin: 0;
-        padding: 0;
-        position: relative;
-        top: 0;
-        left: 0;
-
-        h1 {
-            display: flex;
-            justify-content: center;
-            font-weight: 700;
-            text-transform: uppercase;
-        }
-
-        h5 {
-            display: flex;
-            justify-content: center;
+        .back-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            width: 100%;
         }
     }
 }
@@ -102,64 +202,9 @@
     text-transform: uppercase;
 }
 
+/* HOMEPAGE HERO SECTION */ 
 .site-main {
-    background-color: $color-white;
-
-    .banner {
-        width: 100%;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .back-img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        object-fit: cover;
-        width: 100%;
-    }
-
-    .hero-name {
-        margin: 0;
-        padding: 0;
-        position: relative;
-        top: -100px;
-        left: 0;
-
-        h1 {
-            display: flex;
-            justify-content: center;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: $color-white;
-        }
-
-        h5 {
-            display: flex;
-            justify-content: center;
-            color: $color-white;
-        }
-    }
-}
-
-/* HERO SECTION */
-.hero {
-    background-color: $color-white-bg;
-    color: $color-text-subheadings;
-    text-align: center;
-    padding: 6em 0;
-    min-height: 80vh;
-    // display: grid;
-    // place-items: center;
-
-    video {
-        height: 95vh;
-    }
-
-    
-    .container {
+    .home-container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -169,45 +214,23 @@
         left: 0;
         height: 90vh;
         width: 100%;
-
-        .hero-name {
-            max-width: 1000px;
-        }
-
-        h1 {
-            justify-content: flex-start;
-            margin-bottom: .25em;
-            font-size: 4em;
-        }
-    
-        p {
-            margin: 1em auto;
-            color: $color-white;
-            font-size: 2em;
-        }
-
-        h5 {
-            margin-top: 1em;
-        }
-    
-        .svg_p {
-            margin: 0;
-            color: $color-white;
-            font-size: 2em;
-        }
     }
-}
 
-/* SITE MAIN */ 
-.site-main {
-    background-color: $color-white;
-
-    .banner {
+    .home-banner {
         width: 100%;
         overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 70vh;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            width: 100%;
+        }
 
         video {
             position: absolute;
@@ -216,14 +239,32 @@
             object-fit: cover;
             width: 100%;
         }
+
+        .back-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            object-fit: cover;
+            width: 100%;
+        }
     }
 
-    .hero-name {
+    .home-hero-name {
         margin: 0;
         padding: 0;
         position: relative;
         top: 0;
         left: 0;
+        width: 325px;
+
+        svg {
+            max-width: 325px;
+        }
+
+        .svg_p {
+            font-size: 1.1em;
+            color: $color-white;
+        }
     }
 }
 
@@ -328,6 +369,7 @@
 
 /* FEATURED PROJECTS */
 #projects {
+    margin: 4em 0;
     padding: 0;
     background-color: $color-white-bg;
 
@@ -352,99 +394,40 @@
     z-index: 1;
 }
 
-.bg-darkgreen {
-    padding: 2em;
-    background-color: $color-dark-purple;
-
-    .overview {
-        padding: 2em;
-        .schem-info {
-            h2 {
-                font-weight: 700;
-                color: $color-white;
-            }
-            .process {
-                p {
-                    margin: 0;
-                    max-width: 1500px;
-                    color: $color-white;
-                }
-            }
-        }
-
-        h5 {
-            margin: 2.5em 0 .5em 0;
-            display: flex;
-            justify-content: center;
-            color: $color-light-green;
-            font-weight: 600;
-        }
-
-        hr {
-            margin: auto;
-            display: flex;
-            justify-content: center;
-            max-width: 20px;
-            height: 2px $color-light-green;
-        }
-
-        h2 {
-            margin: 1em 0 1em 0;
-            display: flex;
-            text-align: center;
-            font-size: 1.8em;
-            color: $color-text-body;
-        }
-
-        .white-bg {
-            background-color: #ffffff;
-            padding: 1em;
-        }
-    }
-}
-
-.brandassets {
-    .row {
-        display: flex;
-        justify-content: center;
-
-        h2 {
-            font-weight: 700;
-        }
-    }
-}
-
-.bs {
-    img {
-        margin: 1em 0 0 0;
-    }
-}
-
-.bs_desc {
-    h3 {
-        color: $color-text-headings;
-        font-weight: 700;
-    }
-}
-
-.logo-title {
-    display: flex;
+// PROJECT INFORMATION
+.proj-info {
+    margin: 4em 0;
+    display: block;
     justify-content: center;
 
-    h1 {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-    
-    .green {
-        color: $color-portfolio-bg;
-        margin-bottom: .5em;
-    }
-}
+    .proj-stats {
+        margin: 1em 1em 2em 1em;
+        width: 445px;
 
+        hr {
+            margin: 1em 0;
+            width: 25%;
+        }
+    }
+
+    ul {
+        padding: 0;
+        li {
+            list-style: none;
+        }
+    }
+
+    .insight {
+        margin: 1em;
+
+        p {
+            font-size: 1em;
+            width: 330px;
+        }
+    }
+} 
+
+// AMBER PULL QUOTE
 .bg-amber {
     background-color: $color-amber;
     padding: 5em;
@@ -461,14 +444,14 @@
             }
 
             .idea-desc {
-                margin-top: 1em;
+                margin-top: 1.1em;
 
                 i {
                     display: flex;
                     text-align: center;
                     font-family: $font-family-quotes;
                     font-weight: 500;
-                    font-size: 1.2em;
+                    font-size: 1em;
                     letter-spacing: .1em;
                 }
             }
@@ -484,8 +467,30 @@
     }
 }
 
-.sec-darkgreen {
+// SECTIONS
+
+.amber_sections {
     padding: 2em;
+
+
+    .logo-title {
+        display: flex;
+        justify-content: center;
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            font-weight: 700;
+            font-size: 2em;
+            text-transform: uppercase;
+        }
+        
+        .green {
+            color: $color-portfolio-bg;
+            margin-bottom: .5em;
+        }
+    }   
 
     .overview {
         h5 {
@@ -545,7 +550,7 @@
         
                 img {
                     margin-top: 1em;
-                    max-width: 800px;
+                    width: 100%;
         
                 }
         
@@ -554,6 +559,100 @@
                     margin-bottom: 1em;
                 }
             }
+        }
+    }
+
+    .brandassets {
+        .row {
+            display: flex;
+            justify-content: center;
+
+            h2 {
+                font-weight: 700;
+            }
+        }
+    }
+
+    .ma_mock {
+        margin-top: 2em;
+        .row {
+            padding: .5em 0 .5em 0;
+    
+            .one-half {
+                h2 {
+                    margin: 0 0 .5em 0;
+                    font-weight: 700;
+                }
+    
+                h5 {
+                    display: flex;
+                    justify-content: flex-start;
+                    font-weight: 700;
+                    margin-bottom: 1em;
+                }
+    
+                img {
+                    transition: ease-in-out .2s;
+    
+                    &:hover {
+                        transform: scale(1.2);
+                        transition: ease-in-out .2s;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                    }
+                }
+    
+            }
+        }
+    }
+}
+
+.amber_dark_section {
+    padding: 2em;
+    background-color: $color-dark-purple;
+
+    .overview {
+        padding: 2em;
+        .schem-info {
+            h2 {
+                font-weight: 700;
+                color: $color-white;
+            }
+            .process {
+                p {
+                    margin: 0;
+                    max-width: 1500px;
+                    color: $color-white;
+                }
+            }
+        }
+
+        h5 {
+            margin: 2.5em 0 .5em 0;
+            display: flex;
+            justify-content: center;
+            color: $color-light-green;
+            font-weight: 600;
+        }
+
+        hr {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            max-width: 20px;
+            height: 2px $color-light-green;
+        }
+
+        h2 {
+            margin: 1em 0 1em 0;
+            display: flex;
+            text-align: center;
+            font-size: 1.8em;
+            color: $color-text-body;
+        }
+
+        .white-bg {
+            background-color: #ffffff;
+            padding: 1em;
         }
     }
 }
@@ -595,40 +694,6 @@
     }
 }
 
-.proj-info {
-    margin: 4em 0;
-    display: flex;
-    justify-content: space-between;
-
-    .proj-stats {
-        margin: 1em;
-        max-width: 400px;
-
-        hr {
-            margin: 1em 0 1em 0;
-            width: 100%;
-        }
-    }
-
-    ul {
-        padding: 0;
-
-        li {
-            list-style: none;
-        }
-    }
-
-    .insight {
-        margin: 1em 1em 0 2em;
-
-        p {
-            font-size: 1.5em;
-            margin: 0;
-            max-width: 1000px;
-        }
-    }
-}
-
 .sub-title {
     margin-bottom: .5em;
     font-family: $font-family-serif;
@@ -661,46 +726,7 @@
     }
 }
 
-.ma_mock {
-    margin-top: 2em;
-    .row {
-        padding: .5em 0 .5em 0;
-
-        .one-half {
-            h2 {
-                margin: 0 0 .5em 0;
-                font-weight: 700;
-            }
-
-            h6 {
-                font-weight: 700;
-                color: $color-text-subheadings;
-                margin-bottom: 1em;
-            }
-
-            img {
-                transition: ease-in-out .2s;
-
-                &:hover {
-                    transform: scale(1.2);
-                    transition: ease-in-out .2s;
-                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-                }
-            }
-
-        }
-    }
-}
-
 /* SCALED COMPOSITES */ 
-.conatiner {
-
-    img {
-        height: 50vh;
-    }
-
-}
-
 .CS {
     .scaled_logo {
         video {
@@ -710,26 +736,7 @@
     }
 }
 
-/* TRILOGY BOOKS */ 
-.site-main {
-    background-color: $color-white;
-
-    .banner {
-        width: 100%;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .back-img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        object-fit: cover;
-        width: 100%;
-    }
-}
+/* TRILOGY BOOKS */
 
 .podcast {
     margin: 0;
@@ -740,7 +747,7 @@
     padding: 3em;
 }
 
-.logo-title1 {
+.logo-title-podcast {
 
     .title {
         margin-top: 1em;
@@ -778,6 +785,17 @@
 
     p {
         color: $color-white;
+    }
+}
+
+.podcast {
+    margin: 0;
+    background-color: $color-portfolio-bg-darker;
+}
+
+.logo-title-podcast {
+    h1 {
+        font-size: 1.4em;
     }
 }
 
@@ -949,7 +967,6 @@
     padding: 4em;
 
     .more-work {
-
         h2 {
             font-size: .8em;
             font-weight: 700;
@@ -958,7 +975,7 @@
 
         .hr-lines {
             position: relative;
-            max-width: 500px;
+            max-width: 180px;
             margin: 3em auto;
             text-align: center;
 
@@ -966,7 +983,7 @@
                 content:" ";
                 display: block;
                 height: 2px;
-                width: 300px;
+                width: 100px;
                 position: absolute;
                 top: 50%;
                 left: -50%;
@@ -976,7 +993,7 @@
             &::after {
                 content:" ";
                 height: 2px;
-                width: 300px;
+                width: 100px;
                 background: $color-light-green;
                 display: block;
                 position: absolute;
@@ -1000,9 +1017,10 @@
 
     li {
         list-style: none;
+        margin: 2em 0;
 
         h4 {
-            margin: .5em 0 .2em 0;
+            margin-top: 1em;
             font-weight: 700;
             text-transform: uppercase;
         }
@@ -1102,9 +1120,7 @@
 
 section {
     padding: 4em 0;
-    min-height: 100vh;
-    // display: grid;
-    // align-items: center;
+    max-height: 90vh;
 }
 
 sectionproj {

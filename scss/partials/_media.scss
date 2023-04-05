@@ -113,37 +113,627 @@ img {
     }
 }
 
+/* MEDIA QUERIES */ 
+@media (min-width: $breakpoint-medium) {
+    // PROJECT INFORMATION
+    .proj-info {
+        display: flex !important; 
+        justify-content: space-between;
 
-/* LARGE SCREENS */
-@media (max-width: $breakpoint-large) { 
-    /* HERO SECTION */
-    .hero {
-        // background-image: url(/img/Hero_Video.mp4);
-        color: $color-text-subheadings;
-        text-align: center;
-        padding: 6em 0;
-        min-height: 100vh;
-        // display: grid;
-        // place-items: center;
+        .proj-stats {
+            width: 200px !important;
 
-        .container {
-            // display: inline-block;
-            // align-items: center;
-            // text-align: center;
-
-            h1 {
-                padding-left: .5em;
-                // justify-content: flex-start;
-                color: $color-text-headings;
-                // margin-bottom: .25em;
-                font-size: 1em;
+            hr {
+                width: 75% !important;
             }
-        
+        }
+
+        .insight {
             p {
-                font-size: 3em;
-                // margin: 1em auto;
+                font-size: 1.2em !important;
+                width: 800px !important;
             }
+        }
+    }
 
+    // SEE MORE WORK
+    .see-more {
+        .row {
+            .one-third {
+                margin: 1em;
+            }
         }
     }
 }
+
+
+// /* LARGE SCREENS */
+// @media (max-width: $breakpoint-large) { 
+//     /* HERO SECTION */
+//     .hero {
+//         color: $color-text-subheadings;
+//         text-align: center;
+//         padding: 6em 0;
+
+//         .container {
+
+//             h1 {
+//                 padding-left: .5em;
+//                 color: $color-text-headings;
+//                 font-size: 1em;
+//             }
+        
+//             p {
+//                 font-size: 3em;
+//             }
+
+//         }
+//     }
+
+//     /* GALLERY */ 
+//     #past,
+//     #internship {
+//         margin-right: 1em;
+//         display: flex;
+//         justify-content: center;
+//         max-width: 900px;
+
+//         .container {
+//             .row {
+//                 margin: 0;
+//                 display: flex;
+//                 justify-content: center;
+//             }
+        
+//             ul {
+//                 padding: 0;
+//                 list-style: none;
+//             }
+        
+//             li {
+//                 margin: 1em;
+//                 display: inline-block;
+//             }
+
+//         }
+//     }
+// }
+
+// /* MEDIUM SCREENS */
+// @media (min-width: $breakpoint-medium) { 
+//     section {
+//         min-height: 75vh;
+//     }
+
+//     /* HERO SECTION */
+//     .hero {
+//         background-color: $color-white-bg;
+//         color: $color-text-subheadings;
+//         text-align: center;
+//         padding: 6em 0;
+//         min-height: 90vh;
+
+//         .container {
+//             position: absolute;
+
+//             .hero-name {
+//                 max-width: 400px;
+//                 margin: 0;
+
+//                 #logo {
+//                     display: flex;
+//                     justify-content: center;
+//                     max-width: 700px;
+//                 }
+//             }
+
+//             h1 {
+//                 justify-content: flex-start;
+//                 color: $color-text-headings;
+//             }
+        
+//             p {
+//                 font-size: 2em;
+//             }
+//         }
+
+//         // /* VIDEO */ 
+//         .back-video {
+//             position: absolute;
+//             left: 0;
+//             top: 0;
+//             width: 100%;
+//         }
+//     }
+    
+//     /* HERO IMAGE */ 
+//     .banner {
+//         .back-img {
+//             position: absolute;
+//             left: 0;
+//             top: 0;
+//             width: 100%;
+//             height: 90vh;
+//         }
+//     }
+
+
+//     .site-main {
+//         background-color: $color-white;
+
+//         .banner {
+//             width: 100%;
+//             overflow: hidden;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+
+//             img {
+//                 position: absolute;
+//                 top: 0;
+//                 left: 0;
+//                 object-fit: cover;
+//                 width: 100%;
+//             }
+//         }
+
+//         .hero-name {
+//             margin: 0;
+//             padding: 0;
+//             position: relative;
+//             top: 0;
+//             left: 0;
+
+//             h1 {
+//                 padding: 0 0 0 .15em ;
+//                 display: flex;
+//                 justify-content: center;
+//                 font-weight: 700;
+//                 text-transform: uppercase;
+//                 font-size: 3em;
+//                 color: $color-white;
+//             }
+
+//             h5 {
+//                 display: flex;
+//                 justify-content: center;
+//                 font-size: 1em;
+//                 color: $color-white;
+//             }
+//         }
+//     }
+
+//     .logo-title1 {
+
+//         .title {
+//             margin-top: 1em;
+//         }
+    
+//         h1 {
+//             display: flex;
+//             justify-content: center;
+//             margin: 0;
+//             font-size: 2em;
+//             font-weight: 700;
+//             text-transform: uppercase;
+//             color: $color-white;
+//         }
+//     }
+
+//     /* SEE MORE WORK */ 
+//     .see-more {
+//     background-color: $color-white-bg;
+
+//     .more-work {
+
+//         h2 {
+//             font-size: .8em;
+//             font-weight: 700;
+//             text-transform: uppercase;
+//         }
+
+//         .hr-lines {
+//             position: relative;
+//             max-width: 500px;
+//             margin: 3em auto;
+//             text-align: center;
+
+//             &::before{
+//                 content:" ";
+//                 display: block;
+//                 height: 2px;
+//                 width: 130px;
+//                 position: absolute;
+//                 top: 50%;
+//                 left:0;
+//                 background: $color-light-green;
+//               }
+        
+//             &::after {
+//                 content:" ";
+//                 height: 2px;
+//                 width: 130px;
+//                 background: $color-light-green;
+//                 display: block;
+//                 position: absolute;
+//                 top: 50%;
+//                 right: 0
+//             }
+//         }
+//     }
+// }
+
+//     // ODD GRID
+//     .grid-wrap {
+//         position: relative;
+//         margin: 0;
+//         padding: 10px;
+
+//         ul {
+//             margin: 0 auto;
+//             padding: 0;
+//             display: grid;
+//             justify-content: center;
+//             grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+//             grid-auto-flow: dense;
+//             grid-gap: 2px;
+
+//             li {
+//                 position: relative;
+//                 list-style: none;
+
+//                 &:nth-child(1) {
+//                     grid-row: span 2;
+//                     grid-column: span 8;
+//                 }
+
+//                 &:nth-child(2) {
+//                     grid-row: span 2;
+//                     grid-column: span 8;
+//                 }
+//                 &:nth-child(3) {
+//                     grid-row: span 2;
+//                     grid-column: span 8;
+//                 }
+
+//                 &:nth-child(4) {
+//                     grid-row: span 2;
+//                     grid-column: span 8;
+//                 }
+//                 &:nth-child(5) {
+
+//                     grid-row: span 2;
+//                     grid-column: span 8;
+//                 }
+
+//                 &:nth-child(6) {
+
+//                     grid-row: span 3;
+//                     grid-column: span 8;
+//                 }
+//                 &:nth-child(7) {
+
+//                     grid-row: span 2;
+//                     grid-column: span 4;
+//                 }
+
+//                 &:nth-child(8) {
+
+//                     grid-row: span 2;
+//                     grid-column: span 5;
+//                 }
+//             }
+
+//             img {
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: cover;
+//             }
+
+//             .logotype {
+//                 border: 1px solid $color-light-green;
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: fill;
+//             }
+
+//             .logomark {
+//                 border: 1px solid $color-light-green;
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: cover;
+//             }
+//         }
+//     }
+// }
+
+// /* MEDIUM SCREENS */
+// @media (min-width: $breakpoint-small) { 
+//     section {
+//         min-height: 75vh;
+//     }
+
+//     /* HERO SECTION */
+//     .hero {
+//         background-color: $color-white-bg;
+//         color: $color-text-subheadings;
+//         text-align: center;
+//         padding: 6em 0;
+//         min-height: 90vh;
+
+//         .container {
+
+//             .hero-name {
+//                 max-width: 700px;
+//                 margin: 0;
+
+//                 #logo {
+//                     max-width: 600px;
+//                 }
+
+//                 .svg_p {
+//                     font-size: 1.5em;
+//                 }
+//             }
+
+//             h1 {
+//                 color: $color-text-headings;
+//             }
+//         }
+//     }
+
+//     /* SITE MAIN */ 
+//     .site-main {
+//         .banner {
+//             img {
+//                 position: absolute;
+//                 top: 0;
+//                 left: 0;
+//                 object-fit: cover;
+//                 width: 100%;
+//                 height: 90vh;
+//             }
+//         }
+
+//         .hero-name {
+//             top: 0;
+
+//             h1 {
+//                 padding: 0 0 0 .15em ;
+//                 font-size: 2em;
+//             }
+
+//             h5 {
+//                 font-size: 1em;
+//             }
+//         }
+//     }
+
+//     /* HERO IMAGE */ 
+//     .banner {
+//         .back-img {
+//             height: 100vh;
+//         }
+//     }  
+
+//     .home-banner {
+//         .back-img {
+//             height: 100vh;
+//         }
+//     }   
+
+//     /* SECTION TITLES */ 
+//     .logo-title {
+//         display: flex;
+//         justify-content: center;
+    
+//         h1 {
+//             display: flex;
+//             justify-content: center;
+//             margin: 0;
+//             font-weight: 700;
+//             font-size: 2.3em;
+//             text-transform: uppercase;
+//         }
+        
+//         .green {
+//             color: $color-portfolio-bg;
+//             margin-bottom: .5em;
+//         }
+//     } 
+
+//     /* AMBER AYRE */ 
+//     .site-header {
+//         z-index: 1;
+//     }
+
+//     .proj-info {
+//         display: inline;
+//         justify-content: center;
+
+//         h5 {
+//             color: $color-light-green;
+//             font-weight: 600;
+//         }
+
+//         li {
+//             list-style: none;
+//         }
+
+//         hr {
+//             max-width: 80%;
+//         }
+
+//         .details {
+//             align-items: center;
+//         }
+
+//         .sub-title {
+//             font-family: $font-family-serif;
+//             font-weight: 600;
+//             font-size: .6em;
+//             text-transform: uppercase;
+//             color: $color-light-green;
+//         }
+
+//         .proj-stats {
+//             margin: 4em 1em 2em 1em;
+//             width: 50%;
+//         }
+
+//         .insight {
+//             margin: 2em 1em 4em 1em;
+//         }
+//     }
+
+//     // ODD GRID
+//     .grid-wrap {
+//         position: relative;
+//         margin: 0;
+//         padding: 10px;
+
+//         ul {
+//             margin: 0 auto;
+//             padding: 0;
+//             display: grid;
+//             justify-content: center;
+//             grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+//             grid-auto-flow: dense;
+//             grid-gap: 2px;
+
+//             li {
+//                 position: relative;
+//                 list-style: none;
+
+//                 &:nth-child(1) {
+//                     grid-row: span 2;
+//                     grid-column: span 8;
+//                 }
+
+//                 &:nth-child(2) {
+//                     grid-row: span 2;
+//                     grid-column: span 8;
+//                 }
+//                 &:nth-child(3) {
+//                     grid-row: span 2;
+//                     grid-column: span 8;
+//                 }
+
+//                 &:nth-child(4) {
+//                     grid-row: span 2;
+//                     grid-column: span 8;
+//                 }
+//                 &:nth-child(5) {
+
+//                     grid-row: span 2;
+//                     grid-column: span 8;
+//                 }
+
+//                 &:nth-child(6) {
+
+//                     grid-row: span 3;
+//                     grid-column: span 8;
+//                 }
+//                 &:nth-child(7) {
+
+//                     grid-row: span 2;
+//                     grid-column: span 4;
+//                 }
+
+//                 &:nth-child(8) {
+
+//                     grid-row: span 2;
+//                     grid-column: span 5;
+//                 }
+//             }
+
+//             img {
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: cover;
+//             }
+
+//             .logotype {
+//                 border: 1px solid $color-light-green;
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: fill;
+//             }
+
+//             .logomark {
+//                 border: 1px solid $color-light-green;
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: cover;
+//             }
+//         }
+//     }
+
+//     .bg-darkgreen {
+//         padding: 2em;
+//         background-color: $color-dark-purple;
+    
+//         .overview {
+//             .schem-info {
+//                 h2 {
+//                     font-weight: 700;
+//                     color: $color-white;
+//                 }
+//                 .process {
+//                     p {
+//                         margin: 0;
+//                         max-width: 1500px;
+//                         color: $color-white;
+//                     }
+//                 }
+//             }
+    
+//             h5 {
+//                 margin: 2.5em 0 .5em 0;
+//                 display: flex;
+//                 justify-content: center;
+//                 color: $color-light-green;
+//                 font-weight: 600;
+//             }
+    
+//             hr {
+//                 margin: auto;
+//                 display: flex;
+//                 justify-content: center;
+//                 max-width: 20px;
+//                 height: 2px $color-light-green;
+//             }
+    
+//             h2 {
+//                 margin: 1em 0 1em 0;
+//                 display: flex;
+//                 text-align: center;
+//                 font-size: 1.8em;
+//                 color: $color-text-body;
+//             }
+    
+//             .box-shadow {
+//                 margin-top: 2em;
+//                 img {
+//                     box-shadow: 0px 0px 20px $color-text-headings;
+//                 }
+//             }
+    
+//         }
+//     }
+
+//     .sec-green {
+        
+//         .logo-title {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         } 
+//     }
+
+//     #left {
+//         z-index: 1;
+//         position: static;
+//         max-width: 475px;
+//     }
+// }
