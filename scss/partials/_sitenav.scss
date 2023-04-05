@@ -2,7 +2,7 @@
 .site-header .site-nav {
     .menu-button {
         position: absolute;
-        top: .75em;
+        top: 1.5em;
         right: .75em;
         color: $color-text-headings;
         margin: 0;
@@ -40,6 +40,7 @@
     }
 
     li {
+        margin: 1em 0;
         text-transform: uppercase;
         font-weight: 600;
         font-size: 4vw;
@@ -61,7 +62,7 @@
             text-decoration: none;
             padding: 15px 32px;
             border-radius: 5em;
-            margin: 1em .5em 1em 0;
+            margin: .5em 0 .5em 0;
 
             a {
                 color: $color-white;
@@ -144,7 +145,7 @@
 .site-header-white .site-nav {
     .menu-button {
         position: absolute;
-        top: .75em;
+        top: 1.5em;
         right: .75em;
         color: $color-white;
         margin: 0;
@@ -183,6 +184,7 @@
     }
 
     li {
+        margin: 1em 0;
         text-transform: uppercase;
         font-weight: 600;
         font-size: 4vw;
@@ -204,7 +206,7 @@
             text-decoration: none;
             padding: 15px 32px;
             border-radius: 5em;
-            margin: 1em .5em 1em 0;
+            margin: .5em 0 .5em 0;
 
             a {
                 color: $color-white;

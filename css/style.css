@@ -370,6 +370,23 @@ img {
 }
 /* MEDIA QUERIES */
 @media (min-width: 768px) {
+  .site-main .home-hero-name {
+    width: 700px !important;
+  }
+  .site-main .home-hero-name svg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 700px !important;
+  }
+  .site-main .home-hero-name .svg_p {
+    margin-top: 0.5em !important;
+    font-size: 1.5em !important;
+  }
+
   .proj-info {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -1122,9 +1139,10 @@ body {
   width: 325px;
 }
 .site-main .home-hero-name svg {
-  max-width: 325px;
+  width: 325px;
 }
 .site-main .home-hero-name .svg_p {
+  margin-top: -1em;
   font-size: 1.1em;
   color: #FFFAFA;
 }
@@ -2075,7 +2093,7 @@ sectionf {
 }
 .site-header .site-nav .menu-button {
   position: absolute;
-  top: 0.75em;
+  top: 1.5em;
   right: 0.75em;
   color: #353b3c;
   margin: 0;
@@ -2123,6 +2141,7 @@ sectionf {
   z-index: 1;
 }
 .site-header .site-nav li {
+  margin: 1em 0;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 4vw;
@@ -2145,7 +2164,7 @@ sectionf {
   text-decoration: none;
   padding: 15px 32px;
   border-radius: 5em;
-  margin: 1em 0.5em 1em 0;
+  margin: 0.5em 0 0.5em 0;
 }
 .site-header .site-nav li .button a {
   color: #FFFAFA;
@@ -2224,7 +2243,7 @@ sectionf {
 }
 .site-header-white .site-nav .menu-button {
   position: absolute;
-  top: 0.75em;
+  top: 1.5em;
   right: 0.75em;
   color: #FFFAFA;
   margin: 0;
@@ -2272,6 +2291,7 @@ sectionf {
   z-index: 1;
 }
 .site-header-white .site-nav li {
+  margin: 1em 0;
   text-transform: uppercase;
   font-weight: 600;
   font-size: 4vw;
@@ -2294,7 +2314,7 @@ sectionf {
   text-decoration: none;
   padding: 15px 32px;
   border-radius: 5em;
-  margin: 1em 0.5em 1em 0;
+  margin: 0.5em 0 0.5em 0;
 }
 .site-header-white .site-nav li .button a {
   color: #FFFAFA;

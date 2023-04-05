@@ -115,6 +115,24 @@ img {
 
 /* MEDIA QUERIES */ 
 @media (min-width: $breakpoint-small) {
+    // HOMEPAGE HERO 
+    .site-main {
+        .home-hero-name {
+            width: 700px !important;
+    
+            svg {
+                display: flex;
+                justify-content: center;
+                width: 700px !important;
+            }
+
+            .svg_p {
+                margin-top: .5em !important;
+                font-size: 1.5em !important;
+            }
+        }
+    }
+
     // PROJECT INFORMATION
     .proj-info {
         display: flex !important; 
