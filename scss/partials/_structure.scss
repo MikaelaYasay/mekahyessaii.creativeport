@@ -274,7 +274,6 @@
 .dark {
     padding-top: 10em;
     background-color: $color-about;
-    height: 100vh;
 }
 
 .about {
@@ -404,7 +403,7 @@
     .social-links {
         display: flex;
         justify-content: flex-start;
-        margin: 1.2em 0;
+        margin: 3em 0 0 0;
         height: 20px;
 
         a {
@@ -419,24 +418,6 @@
             &:hover {
                 color: $color-light-green;
             }
-        }
-    }
-}
-
-// MORE ON ABOUT PAGE 
-.faves {
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-
-    ul {
-        display: flex;
-        padding: 0;
-        list-style: none;
-
-        li {
-            margin: 0 1em 0 0;
-            color: $color-white;
         }
     }
 }

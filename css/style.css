@@ -1222,7 +1222,6 @@ body {
 .dark {
   padding-top: 10em;
   background-color: #262730;
-  height: 100vh;
 }
 
 .about {
@@ -1376,7 +1375,7 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin: 1.2em 0;
+  margin: 3em 0 0 0;
   height: 20px;
 }
 .bio .social-links a {
@@ -1394,27 +1393,6 @@ body {
 }
 .bio .social-links a:hover {
   color: #97a887;
-}
-
-.faves {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  width: 100%;
-}
-.faves ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-  list-style: none;
-}
-.faves ul li {
-  margin: 0 1em 0 0;
-  color: #FFFAFA;
 }
 
 /* FEATURED PROJECTS */
