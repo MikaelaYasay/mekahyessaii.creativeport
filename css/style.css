@@ -432,51 +432,81 @@ img {
     font-size: 2em !important;
   }
 
-  .bio .changing-text {
-    height: 80px !important;
+  .bio .sub-title {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
   }
-  .bio .changing-text .texts-container {
-    height: 80px !important;
+  .bio .changing-text {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .bio .changing-text .texts-container .roles {
+    margin: 0;
+  }
+  .bio .changing-text .texts-container .roles p {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
   }
   @-webkit-keyframes moveUp {
     0% {
-      -webkit-transform: translateY(0) !important;
-              transform: translateY(0) !important;
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
     }
     33% {
-      -webkit-transform: translateY(-130%) !important;
-              transform: translateY(-130%) !important;
+      -webkit-transform: translateY(-130%);
+              transform: translateY(-130%);
     }
     66% {
-      -webkit-transform: translateY(-200%) !important;
-              transform: translateY(-200%) !important;
+      -webkit-transform: translateY(-200%);
+              transform: translateY(-200%);
     }
     100% {
-      -webkit-transform: translateY(0) !important;
-              transform: translateY(0) !important;
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
     }
   }
   @keyframes moveUp {
     0% {
-      -webkit-transform: translateY(0) !important;
-              transform: translateY(0) !important;
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
     }
     33% {
-      -webkit-transform: translateY(-130%) !important;
-              transform: translateY(-130%) !important;
+      -webkit-transform: translateY(-130%);
+              transform: translateY(-130%);
     }
     66% {
-      -webkit-transform: translateY(-200%) !important;
-              transform: translateY(-200%) !important;
+      -webkit-transform: translateY(-200%);
+              transform: translateY(-200%);
     }
     100% {
-      -webkit-transform: translateY(0) !important;
-              transform: translateY(0) !important;
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
     }
   }
   .bio .bio-p {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .bio .bio-p-location {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
     margin: 0 !important;
-    font-size: 3em;
+    font-size: 3em !important;
+  }
+  .bio .social-links {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+  }
+  .bio .social-links a {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
   }
 
   .MFH .mfh_tshirt img {
@@ -1320,7 +1350,21 @@ body {
   height: 100%;
 }
 
+.bio .sub-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 .bio .changing-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 60px;
 }
 .bio .changing-text .texts-container {
@@ -1338,58 +1382,75 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-animation: moveUp 8s infinite;
           animation: moveUp 8s infinite;
   font-size: 3em;
 }
 @keyframes moveUp {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
   }
   33% {
-    -webkit-transform: translateY(-130%);
-            transform: translateY(-130%);
+    -webkit-transform: translateY(-145%);
+            transform: translateY(-145%);
   }
   66% {
-    -webkit-transform: translateY(-265%);
-            transform: translateY(-265%);
+    -webkit-transform: translateY(-280%);
+            transform: translateY(-280%);
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(-10%);
+            transform: translateY(-10%);
   }
 }
 .bio .bio-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0.1em 0;
   font-size: 3em;
   color: #FFFAFA;
 }
-.bio .social-links {
+.bio .bio-p-location {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin: 3em 0 0 0;
-  height: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.5em 0;
+  font-size: 1em;
+  color: #FFFAFA;
+}
+.bio .social-links {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .bio .social-links a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   color: #FFFAFA;
   text-decoration: none;
   letter-spacing: 0.1em;
   padding: 0 0.5em;
   height: 20px;
+  width: 60px;
 }
 .bio .social-links a:hover {
   color: #97a887;

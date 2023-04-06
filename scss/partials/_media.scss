@@ -188,37 +188,61 @@ img {
     }
 
     .bio {
+        .sub-title {
+            justify-content: flex-start !important;
+        }
+    
         .changing-text {
-            height: 80px !important;
-
+            justify-content: flex-start !important;
+    
             .texts-container{
-                height: 80px !important;
+    
+                .roles {
+                    margin: 0;
+    
+                    p {
+                        justify-content: flex-start !important;
+                    }
+    
+                }
             }
         }
         
         @keyframes moveUp{
             0%{
-                transform: translateY(0) !important;
+                transform: translateY(0);
             }
         
             33%{
-                transform: translateY(-130%) !important;
+                transform: translateY(-130%);
             }
         
             66%{
-                transform: translateY(-200%) !important;
+                transform: translateY(-200%);
             }
         
             100% {
-                transform: translateY(0) !important;
+                transform: translateY(0);
             }
         }
-
+    
         .bio-p {
-            margin: 0 !important;
-            font-size: 3em;
+            justify-content: flex-start !important;
         }
-        
+    
+        .bio-p-location {
+            justify-content: flex-start !important;
+            margin: 0 !important;
+            font-size: 3em !important;
+        }
+    
+        .social-links {
+            justify-content: flex-start !important;
+    
+            a {
+                justify-content: flex-start !important;
+            }
+        }
     }
     
 

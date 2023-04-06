@@ -353,7 +353,14 @@
 
 .bio {
 
+    .sub-title {
+        display: flex;
+        justify-content: center;
+    }
+
     .changing-text {
+        display: flex;
+        justify-content: center;
         height: 60px;
 
         .texts-container{
@@ -367,7 +374,7 @@
 
                 p {
                     display: flex;
-                    justify-content: flex-start;
+                    justify-content: center;
                     animation: moveUp 8s infinite;
                     font-size: 3em;
                 }
@@ -378,42 +385,52 @@
     
     @keyframes moveUp{
         0%{
-            transform: translateY(0);
+            transform: translateY(-10%);
         }
     
         33%{
-            transform: translateY(-130%);
+            transform: translateY(-145%);
         }
     
         66%{
-            transform: translateY(-265%);
+            transform: translateY(-280%);
         }
     
         100% {
-            transform: translateY(0);
+            transform: translateY(-10%);
         }
     }
 
     .bio-p {
+        display: flex;
+        justify-content: center;
         margin: .1em 0;
         font-size: 3em;
         color: $color-white;
     }
 
-    .social-links {
+    .bio-p-location {
         display: flex;
-        justify-content: flex-start;
-        margin: 3em 0 0 0;
-        height: 20px;
+        justify-content: center;
+        margin: .5em 0;
+        font-size: 1em;
+        color: $color-white;
+    }
+
+    .social-links {
+        margin-top: 3em;
+        display: flex;
+        justify-content: center;
 
         a {
             display: flex;
-            justify-content: flex-start;
+            justify-content: center;
             color: $color-white;
             text-decoration: none;
             letter-spacing: .1em;
             padding: 0 .5em;
             height: 20px;
+            width: 60px;
     
             &:hover {
                 color: $color-light-green;
