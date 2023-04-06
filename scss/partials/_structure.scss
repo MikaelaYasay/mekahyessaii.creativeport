@@ -274,6 +274,7 @@
 .dark {
     padding-top: 10em;
     background-color: $color-about;
+    height: 100vh;
 }
 
 .about {
@@ -349,23 +350,94 @@
             height: 100%;
         }
     }
-    .location {
+}
 
-        h6 {
-            color: $color-white;
-            margin-bottom: .5em;
+.bio {
+
+    .changing-text {
+        height: 60px;
+
+        .texts-container{
+            display: flex;
+            overflow: hidden;
+            height: 60px;
+            color: $color-portfolio-bg;
+
+            .roles {
+                margin: 0;
+
+                p {
+                    display: flex;
+                    justify-content: flex-start;
+                    animation: moveUp 8s infinite;
+                    font-size: 3em;
+                }
+
+            }
         }
-
-        p {
-            vertical-align: top;
-        }
-
     }
     
-    p {
-        display: flex;
+    @keyframes moveUp{
+        0%{
+            transform: translateY(0);
+        }
+    
+        33%{
+            transform: translateY(-130%);
+        }
+    
+        66%{
+            transform: translateY(-265%);
+        }
+    
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .bio-p {
+        margin: .1em 0;
+        font-size: 3em;
         color: $color-white;
-        letter-spacing: .1em;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: flex-start;
+        margin: 1.2em 0;
+        height: 20px;
+
+        a {
+            display: flex;
+            justify-content: flex-start;
+            color: $color-white;
+            text-decoration: none;
+            letter-spacing: .1em;
+            padding: 0 .5em;
+            height: 20px;
+    
+            &:hover {
+                color: $color-light-green;
+            }
+        }
+    }
+}
+
+// MORE ON ABOUT PAGE 
+.faves {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+    ul {
+        display: flex;
+        padding: 0;
+        list-style: none;
+
+        li {
+            margin: 0 1em 0 0;
+            color: $color-white;
+        }
     }
 }
 
@@ -1161,16 +1233,17 @@ sectionf {
     align-items: center;
 }
 
+.site-nav {
+    .social-links {
+        display: flex;
+        justify-content: center;
 
-.social-links {
-    display: flex;
-    justify-content: center;
+        a {
+            color: $color-portfolio-bg-darker;
 
-    a {
-        color: $color-portfolio-bg-darker;
-
-        &:hover {
-            color: $color-white;
+            &:hover {
+                color: $color-white;
+            }
         }
     }
 }

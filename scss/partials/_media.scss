@@ -178,6 +178,50 @@ img {
         }
     }
 
+    // ABOUT ME PAGE
+    .about {
+        .name {
+            h1 {
+                font-size: 2em !important;
+            }
+        }
+    }
+
+    .bio {
+        .changing-text {
+            height: 80px !important;
+
+            .texts-container{
+                height: 80px !important;
+            }
+        }
+        
+        @keyframes moveUp{
+            0%{
+                transform: translateY(0) !important;
+            }
+        
+            33%{
+                transform: translateY(-130%) !important;
+            }
+        
+            66%{
+                transform: translateY(-200%) !important;
+            }
+        
+            100% {
+                transform: translateY(0) !important;
+            }
+        }
+
+        .bio-p {
+            margin: 0 !important;
+            font-size: 3em;
+        }
+        
+    }
+    
+
     // GALLERY 
     .MFH {
         .mfh_tshirt {
