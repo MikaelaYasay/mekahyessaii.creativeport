@@ -1117,7 +1117,7 @@
 
 /* RESUME PAGE */ 
 .resume {
-    margin: 5em;
+    margin: 8em 5em 5em 5em;
 
     .resume-btn {
         margin-bottom: 2em;
@@ -1141,10 +1141,19 @@
         }
     }
 
-    img {
-        box-shadow: 0px 0px 20px $color-text-headings;
-        width: 100%;
-        height: auto;
+    .resume-img {
+        display: flex;
+        justify-content: center;
+        padding: 0 3em 3em 3em;
+
+        img {
+            display: flex;
+            justify-content: center;
+            box-shadow: 0px 0px 20px $color-text-headings;
+            width: 100%;
+            height: auto;
+        }
+
     }
 }
 
