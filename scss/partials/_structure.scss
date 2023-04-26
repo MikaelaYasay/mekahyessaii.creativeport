@@ -729,6 +729,63 @@
     }
 }
 
+.ws_light {
+    padding: 2em;
+    background-color: $color-light-blue;
+
+    .overview {
+        padding: 2em;
+
+        .character_video {
+            margin-top: 2em;
+
+            video {
+                height: 20vh;
+            }
+        }
+
+        .character-info {
+            h2 {
+                font-weight: 700;
+                color: $color-blue;
+            }
+
+            .process {
+                margin-top: 2em;
+                p {
+                    margin: 0;
+                    max-width: 1500px;
+                    color: $color-blue;
+                }
+            }
+        }
+
+        h5 {
+            margin: 2.5em 0 .5em 0;
+            display: flex;
+            justify-content: center;
+            color: $color-blue;
+            font-weight: 600;
+        }
+
+        hr {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            max-width: 20px;
+            height: 2px $color-blue;
+        }
+
+        h2 {
+            margin: 1em 0 1em 0;
+            display: flex;
+            text-align: center;
+            font-size: 1.8em;
+            color: $color-text-body;
+        }
+    }
+}
+
 .padding-large {
     padding: 8em 0;
 }
