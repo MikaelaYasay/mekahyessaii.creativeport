@@ -929,13 +929,19 @@
 }
 
 /* WE SOURCE */ 
-.ws_light {
+.ws_light,
+.character_illy {
     padding: 4em;
 
     .CS {
         .row {
             margin-bottom: 0;
 
+            .one-half {
+                p {
+                    max-width: 45em;
+                }
+            }
         }
 
         h1 {
@@ -967,9 +973,18 @@
 
 .CS {
     .ws_logo {
+        display: flex;
+        justify-content: center;
+
+        iframe {
+            width: 350px;
+            height: 200px;
+        }
+
         video {
-            width: 100%;
-            height: 100%;
+            overflow: hidden;
+            width: 400px;
+            height: 200px;
         }
     }
 }
