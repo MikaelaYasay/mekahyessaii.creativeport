@@ -268,21 +268,16 @@ img {
     }
 
     // WE SOURCE
-    .ws_light {
-        .CS {
-            h1 {
-               font-size: 2em !important; 
-            }
-
-            .ws_logo {
+    .ws_logo_section_video {
+        .container-m {
+            .ws_info_video {
+    
                 iframe {
-                    @media (min-width: $breakpoint-small) {
-                        width: 800px !important;
-                        height: 450px !important;
-                    }
+                    width: 800px !important;
+                    height: 450px !important;
 
                     @media (max-width: $breakpoint-medium) {
-                        width: 500px !important;
+                        width: 600px !important;
                         height: 350px !important;
                     }
                 }
