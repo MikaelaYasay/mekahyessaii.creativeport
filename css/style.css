@@ -74,6 +74,10 @@ h3 {
   line-height: 1.2;
 }
 
+p {
+  font-size: 1.15em;
+}
+
 /* LIMIT NUMBER OF CHARACTERS PER LINE */
 p {
   max-width: 40em;
@@ -197,6 +201,7 @@ hr {
   margin: 1em 0.5em 1em 0;
 }
 .button a {
+  letter-spacing: 0.1em;
   color: #FFFAFA;
 }
 .button:hover {
@@ -214,6 +219,7 @@ hr {
   margin: 1em 0.5em 1em 0;
 }
 .button-light a {
+  letter-spacing: 0.1em;
   color: #FFFAFA;
 }
 .button-light:hover {
@@ -1148,6 +1154,35 @@ body {
   -webkit-transition-delay: 1s;
           transition-delay: 1s;
 }
+.site-main #projects {
+  margin-top: 5em;
+}
+.site-main #projects .container .hero-name {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.site-main #projects .container .hero-name h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.site-main #projects .container .row {
+  margin-top: 5em;
+}
+.site-main .home-container .home-hero-name .menu-button .button {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
 .site-main .banner {
   width: 100%;
   overflow: hidden;
@@ -2032,11 +2067,12 @@ body {
           justify-content: center;
   text-align: center;
   text-transform: uppercase;
+  font-size: 2em;
   font-weight: 700;
   letter-spacing: 0.2em;
   line-height: 0.8;
   color: #FFFAFA;
-  padding-top: 3em;
+  padding-top: 5em;
   margin: 0;
 }
 .g_header span {
@@ -2326,6 +2362,21 @@ body {
 }
 .site-footer .site-nav .social-links a:hover {
   color: #97a887;
+}
+.site-footer .logomark {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-footer .logomark h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FFFAFA;
 }
 .site-footer .CTA {
   display: -webkit-box;
