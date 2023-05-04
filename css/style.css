@@ -2363,21 +2363,6 @@ body {
 .site-footer .site-nav .social-links a:hover {
   color: #97a887;
 }
-.site-footer .logomark {
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.site-footer .logomark h4 {
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #FFFAFA;
-}
 .site-footer .CTA {
   display: -webkit-box;
   display: -ms-flexbox;
