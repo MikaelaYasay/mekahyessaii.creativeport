@@ -209,20 +209,12 @@ img {
         }
         
         @keyframes moveUp{
-            0%{
-                transform: translateY(0);
-            }
-        
             33%{
-                transform: translateY(-130%);
+                transform: translateY(-130%) !important;
             }
         
             66%{
-                transform: translateY(-200%);
-            }
-        
-            100% {
-                transform: translateY(0);
+                transform: translateY(-80%) !important;
             }
         }
     
