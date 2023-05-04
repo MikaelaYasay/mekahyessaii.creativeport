@@ -2159,8 +2159,8 @@ body {
 .past_work .HLR img,
 .past_work .TUM img,
 .past_work .MUW img {
-  -webkit-box-shadow: 0 0 10px 1px #414849;
-          box-shadow: 0 0 10px 1px #414849;
+  -webkit-box-shadow: 0 0 5px 0.5px #97a887;
+          box-shadow: 0 0 5px 0.5px #97a887;
 }
 
 .fixed {

@@ -1106,9 +1106,10 @@
     .TUM,
     .MUW {
         margin: 4em 0;
+        
 
         img {
-            box-shadow: 0 0 10px 1px $color-link-lighter;
+            box-shadow: 0 0 5px .5px $color-light-green;
         }
     }
 }
