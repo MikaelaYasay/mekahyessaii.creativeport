@@ -1307,16 +1307,16 @@
         }
     }
 
-    // .logomark {
-    //     display: grid;
-    //     justify-content: center;
-    //     align-items: center;
-    //         h4 {
-    //             text-transform: uppercase;
-    //             font-weight: 700;
-    //             color: $color-white;
-    //         }
-    // }
+    .logomark {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+            h4 {
+                text-transform: uppercase;
+                font-weight: 700;
+                color: $color-white;
+            }
+    }
         
     .CTA {
         display: flex;
