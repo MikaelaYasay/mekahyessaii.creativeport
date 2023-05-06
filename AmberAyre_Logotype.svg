@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 294">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #42393d;
+        font-family: LeMondeLivreClaStd-Demi, 'Le Monde Livre Cla Std';
+        font-size: 130.48px;
+        font-weight: 300;
+      }
+
+      .cls-2 {
+        letter-spacing: .08em;
+      }
+
+      .cls-3 {
+        letter-spacing: .08em;
+      }
+
+      .cls-4 {
+        letter-spacing: .08em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: .11em;
+      }
+
+      .cls-7 {
+        letter-spacing: .08em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(27.48 185)"><tspan class="cls-3" x="0" y="0">AM</tspan><tspan class="cls-7" x="236.82" y="0">BE</tspan><tspan class="cls-4" x="424.05" y="0">R </tspan><tspan class="cls-5" x="570.83" y="0">A</tspan><tspan class="cls-2" x="661.25" y="0">Y</tspan><tspan class="cls-6" x="759.5" y="0">R</tspan><tspan x="865.84" y="0">E</tspan></text>
+</svg>
