@@ -1171,11 +1171,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
 }
 .site-main #projects .container .row {
   margin-top: 5em;
+}
+.site-main .home-container .home-hero-name .menu-button ul {
+  padding: 0;
 }
 .site-main .home-container .home-hero-name .menu-button .button {
   text-transform: uppercase;
@@ -2364,8 +2368,9 @@ body {
   color: #97a887;
 }
 .site-footer .logomark {
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2373,10 +2378,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.site-footer .logomark h4 {
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #FFFAFA;
+.site-footer .logomark img {
+  margin-left: 3em;
 }
 .site-footer .CTA {
   display: -webkit-box;

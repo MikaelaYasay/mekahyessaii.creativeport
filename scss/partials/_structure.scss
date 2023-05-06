@@ -187,6 +187,7 @@
                 h1 {
                     display: flex;
                     justify-content: center;
+                    font-size: 2em;
                     font-weight: 700;
                     text-transform: uppercase;
                 }
@@ -201,6 +202,9 @@
     .home-container {
         .home-hero-name {
             .menu-button {
+                ul {
+                    padding: 0;
+                }
                 .button {
                     text-transform: uppercase;
                     font-size: .7em;
@@ -1308,13 +1312,12 @@
     }
 
     .logomark {
-        display: grid;
+        display: flex;
         justify-content: center;
         align-items: center;
-            h4 {
-                text-transform: uppercase;
-                font-weight: 700;
-                color: $color-white;
+        
+            img {
+                margin-left: 3em;
             }
     }
         
